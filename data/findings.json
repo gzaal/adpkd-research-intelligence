@@ -1,0 +1,810 @@
+{
+  "findings": [
+    {
+      "id": "finding_001",
+      "dimension": "pharmacological",
+      "subtopic": "V2_receptor_antagonists",
+      "statement": "Tolvaptan remains the only approved disease-modifying therapy for ADPKD, with robust long-term RCT and registry data showing slowed eGFR decline and TKV growth. Real-world evidence suggests effectiveness is smaller than RCT estimates, largely driven by frequent early discontinuation due to aquaretic side effects (~50% within 12 months in some cohorts).",
+      "confidence": "high",
+      "supporting_papers": [
+        "pm_36719158",
+        "pm_37150675",
+        "pm_41758739",
+        "pm_41541406",
+        "pm_42114268"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "high",
+      "last_updated": "2026-08-02",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 multiple long-term registry and post-hoc analyses confirm sustained benefit. Korean ESSENTIAL study and pooled age-subgroup analyses support broad applicability. Discontinuation data shows loss of benefit after stopping."
+        },
+        {
+          "date": "2026-04-12",
+          "note": "Two papers incorporated. (1) Tolvaptan pediatric RCT (Mekahli et al., CJASN 2023, NCT04782258, n=91, 1-year double-blind): confirmed V2R antagonism in children/adolescents. In 12-17yr group (n=66), htTKV increased 2.6% vs 5.8% placebo (not statistically significant; trial likely underpowered for a 1-year kidney volume endpoint in early disease). Aquaretic AEs: 65% tolvaptan vs 16% placebo. No liver injury detected. Supports biological activity in pediatric patients but does not provide statistically definitive efficacy evidence \u2014 ADPKD is too slow a disease for 1-year pediatric surrogate data to be conclusive. (2) Tolvaptan SR/MA (Li et al., Nefrologia 2023, 8 RCTs, n=2135): Meta-analysis confirms eGFR benefit (MD +1.89 mL/min/1.73m2, 95% CI 0.74-3.04, p=0.001) and TKV reduction (MD -3.32%, 95% CI -4.57 to -2.07, p<0.001). Also reduced renal pain (RR 0.66) and hematuria (RR 0.55). This synthesis reinforces existing high confidence in tolvaptan for adults."
+        },
+        {
+          "date": "2026-05-03",
+          "note": "Two real-world tolvaptan studies incorporated. (1) Marshall et al. (Am J Nephrology Feb 2026, pm_41758739): single-centre UK propensity score-weighted retrospective cohort (n=327: 119 tolvaptan vs 208 untreated; mean follow-up 61.4 months). Primary chronic eGFR slope difference +0.45 mL/min/1.73m2/year (95% CI -0.37 to +1.18) \u2014 not statistically significant; CI compatible with no effect. 52.1% discontinued within 12 months (predominantly aquaretic side effects). Subgroup estimates were larger in long-term-treated patients (+0.58 to +0.78 mL/min/1.73m2/yr) but subject to survivor bias. Direction consistent with TEMPO 3:4 but magnitude smaller and CI wide. (2) McFarlane et al. C-MAJOR Canadian registry (Can J Kidney Health Dis Jan 2026, pm_41541406): baseline characteristics of 470 ADPKD patients on tolvaptan across 24 Canadian centres; mean initiation age 44.4 years. Long-term HRQoL/KRT/AE outcomes pending in subsequent reports. Companion WCN26 conference abstract (ss_cfaaa122) reports preliminary PROs. SYNTHESIS: confidence remains HIGH that tolvaptan slows ADPKD progression in adults, but real-world effectiveness on average is dampened by tolerability-driven early discontinuation. The clinical implication is to set realistic expectations during shared decision-making and to identify adherence-supportive monitoring strategies (e.g., HCTZ adjuvant in HYDROPROTECT)."
+        },
+        {
+          "date": "2026-05-17",
+          "note": "TIPS questionnaire incorporated (pm_42114268, Bais/Meijer et al., Nephrology Dialysis Transplantation, May 11 2026, UMCG Groningen): Development and validation of the TIPS (Tolvaptan Interference with Patients' life Scale) questionnaire, the first ADPKD-specific patient-reported outcome measure (PROM) for tolvaptan-induced polyuria burden. Validation cohort n=152 UMCG ADPKD patients on tolvaptan. Importance 5/Evidence 6/Novelty 7/Classification: background/context. This does not change the efficacy-synthesis for tolvaptan but provides clinical research infrastructure for quantifying aquaretic treatment burden in future trials (relevant to HYDROPROTECT, the C-MAJOR registry long-term outcomes, and shared decision-making research). The availability of a validated PROM is relevant to discussions about whether real-world tolvaptan discontinuation (~52% within 12 months in the Marshall et al. UK cohort) is being driven by burden levels that could be systematically quantified, tracked, and addressed."
+        },
+        {
+          "date": "2026-08-02",
+          "note": "A perspective preprint (ppr_1279948, Groothof/Erler/Bakker, Open Research Europe v2, posted 2026-07-16) raises a methodological hypothesis, not new data: that tolvaptan-related changes in creatinine generation may inflate the apparent creatinine-eGFR benefit in TEMPO 3:4, while selective treatment discontinuation may have simultaneously attenuated the estimated effect via informative censoring. The authors propose reanalyzing TEMPO 3:4 using stored cystatin C measurements; this reanalysis has NOT been performed. ASSESSMENT: this does not change confidence (still HIGH) because no new data are presented and tolvaptan's approval rests on multiple converging RCT and registry sources, not on TEMPO 3:4's creatinine-eGFR endpoint alone. However, it is a legitimate, testable question that converges with an independent observation in the concurrently published LIPS lanreotide RCT (finding_019), where a creatinine-based eGFR signal was NOT reproduced by cystatin C. See finding_028 for the cross-cutting endpoint-validity thread this connects to. Flagged for watchlist: a cystatin C reanalysis of TEMPO 3:4, if conducted, would be genuinely informative and should prompt a confidence re-assessment."
+        }
+      ]
+    },
+    {
+      "id": "finding_002",
+      "dimension": "dietary",
+      "subtopic": "ketogenic_diets",
+      "statement": "Ketogenic dietary interventions show promising but preliminary evidence for slowing kidney volume growth in ADPKD, with the KETO-ADPKD trial demonstrating feasibility and potential efficacy, particularly when sufficient ketosis is achieved",
+      "confidence": "moderate",
+      "supporting_papers": [
+        "pm_41705096",
+        "ss_4a0d276c",
+        "pm_42530143"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "high",
+      "last_updated": "2026-08-09",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 KETO-ADPKD (NCT04680780) showed ketogenic diet feasibility and kidney volume reduction. GREASE II (Phase 2) underway. Multiple nutritional adequacy and safety studies published. Strong animal model support. Key question: whether ketosis threshold matters more than specific diet type."
+        },
+        {
+          "date": "2026-04-12",
+          "note": "Ketogenic diet SR/SWiM incorporated (Grammatikopoulou et al., Metabolism Open 2026-03, pm_41705096). 8 human studies reviewed. Key finding: eGFR was higher or stable post-intervention in 4 studies; htTKV remained UNCHANGED in most. Conclusion: KDIs support metabolic feasibility more consistently than renal disease modification. Effects on renal structural outcomes are inconsistent and limited by short durations and small samples. This systematic review MODERATES our confidence. The direction remains promising but confidence in structural (TKV) benefit is lower than previously noted. Confidence level: remains moderate, but rationale shifts \u2014 it is more accurate to say KDIs show metabolic feasibility and potential functional signals, but structural (TKV) benefit in humans is not yet established. GREASE II (24-month RCT) remains the critical pending data point."
+        },
+        {
+          "date": "2026-05-17",
+          "note": "APS 2026 ketogenic multi-omics incorporated (ss_4a0d276c, 'Ketogenic Communication in Polycystic Kidney Disease', Physiology May 2026): Comparative metabolomics + proteomics of ADPKD patients on dietary ketogenic diet (KD) vs ketogenic supplement diet (KSD). 18 of 156 serum metabolites were consistently altered on KD. Dietary KD produced superior metabolic reprogramming vs KSD \u2014 relevant to the ongoing debate about whether full dietary change vs exogenous ketone supplementation better achieves the metabolic state hypothesized to slow ADPKD. CAUTIONARY FINDING: taurine depletion was detected as a consistent KD effect; in a mouse experiment, combining taurine depletion with cysteamine (a candidate ADPKD therapeutic being evaluated separately) worsened cystic index. This is the first reported interaction between KD-induced metabolic changes and a potential ADPKD drug candidate, and warrants prospective monitoring. LIMITATIONS: abstract-only disclosure \u2014 no full methods, sample size, or statistical detail are indexed; taurine depletion + cysteamine interaction is a mouse mechanistic finding, not a human observation; no TKV or eGFR outcomes reported. ASSESSMENT: confidence remains MODERATE. The taurine depletion signal does not warrant halting ketogenic dietary interventions, but should be tracked as GREASE II and future trials report data. Patients combining a ketogenic diet with cysteamine or other thiol-based compounds should discuss this signal with their nephrologist. The finding that dietary KD outperforms supplemental ketones for metabolic reprogramming supports prioritizing dietary approaches over exogenous BHB if the goal is broad metabolomic reprogramming (though the NCT06867471 exogenous ketone trial may address clinical endpoints separately)."
+        },
+        {
+          "date": "2026-08-09",
+          "note": "A narrative review (pm_42530143, Torres/Sharpe/Weimbs, AJP-Endo Metab, epub 2026-07-30) frames ADPKD as a metabolic disorder and positions beta-hydroxybutyrate (BHB) as a 'renoprotective hormone,' arguing chronic suppression of endogenous ketogenesis deprives ADPKD kidneys of BHB's pleiotropic signaling benefits. No new primary data. Authored by the same lab running the KETO-ADPKD/GREASE trials tracked in this finding, with an established research and commercial interest in ketogenic/BHB interventions -- treat as advocacy synthesis, not independent confirmation. The 'renoprotective hormone' framing in the title overstates what is proven in humans (Claim calibration 5/10). Does not change confidence; the finding remains MODERATE pending controlled trial data with hard TKV/eGFR endpoints."
+        }
+      ]
+    },
+    {
+      "id": "finding_003",
+      "dimension": "pharmacological",
+      "subtopic": "repurposed_drugs",
+      "statement": "Metformin is being evaluated in the large IMPEDE-PKD Phase 3 trial (NCT04939935, n=1174) for ADPKD. Pre-IMPEDE meta-analysis of 4 smaller RCTs (n=213) shows no significant effect on eGFR or htTKV, with a tolerability burden (37% discontinuation/dose reduction). IMPEDE-PKD results are essential before clinical recommendations can be made.",
+      "confidence": "low",
+      "supporting_papers": [
+        "pm_41254555",
+        "pm_40352872"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "high",
+      "last_updated": "2026-04-12",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 IMPEDE-PKD (TAME PKD successor) is a large Phase 3 trial at University of Queensland recruiting 1174 patients. Pre-clinical data supports AMPK activation mechanism. Results expected to be pivotal."
+        },
+        {
+          "date": "2026-04-12",
+          "note": "Two pre-IMPEDE-PKD papers incorporated. (1) Metformin SR/MA (Almeida et al., BMC Nephrology 2025-11, pm_41254555): 4 RCTs, n=213 patients, follow-up 0.15-2 years. No significant effect on eGFR decline (SMD 0.19, p=0.17) or htTKV (SMD 0.09, p=0.53). GI AEs significantly higher with metformin (RR 2.93, p=0.001). Tolerability-related discontinuation/dose reduction: pooled 37.4% (95% CI 12-72%). The null signal is consistent but the trials are too small and too short to be definitive \u2014 this SR aggregates studies that were individually underpowered. Critical caveat: IMPEDE-PKD (n=1,174), the large Phase 3 trial, was not included and will be the definitive test. (2) Indian open-label RCT (Venkatasubramanian et al., Indian J Nephrology 2025-01, pm_40352872): n=52, 6-month follow-up, no significant difference in eGFR or htTKV between metformin and standard of care. ~67% of patients had AEs; only 50% tolerated maximum dose. Open-label design, very short follow-up (6 months is too short for ADPKD endpoints), small n. Informative for tolerability profile but not for efficacy. ASSESSMENT: Pre-IMPEDE data suggests null signal on available evidence, but the question is genuinely open pending the large trial. Confidence in metformin as a proven agent should remain low-to-moderate; IMPEDE-PKD is the trial that matters."
+        }
+      ]
+    },
+    {
+      "id": "finding_004",
+      "dimension": "pharmacological",
+      "subtopic": "novel_investigational",
+      "statement": "Multiple novel drug candidates are in clinical trials for ADPKD: farabursen (Regulus miR-17 inhibitor, Phase 1 COMPLETED with first PD/efficacy signals at WCN26), ABBV-CLS-628 (AbbVie, Phase 2), VX-407 (Vertex PKD1 corrector, Phase 2a AGLOW), PYC-003 (PYC Therapeutics, RNA therapy, Phase 1), JMKX003142 (Phase 2), AZD1613 (AstraZeneca, Phase 1), and GSK4771261 (GSK, Phase 1). V2R inverse agonism (MQ232 green mamba peptide) dissociates non-cAMP anti-cystic signaling from aquaretic effects in a Pkd1 mouse model \u2014 potentially relevant to next-generation V2R targeting beyond tolvaptan. GLP-1RA semaglutide shows htTKV reduction in obese/high-fat-diet Pkd1RC/RC mice only, with a diet-dependent effect suggesting obesity conditionality (relevant to the tirzepatide Phase 2 trial). Translational readthrough therapy (ataluren-class) restores PC1 in PKD1 nonsense-mutant cells and zebrafish (applicable to ~30% of PKD1 patients). Preclinical candidates also include GV-001 (HDAC6), chemical chaperones for PC1 maturation, ALDH1A1 inhibition (disulfiram repurposing), NLRP3 inflammasome inhibitors, integrin \u03b11\u03b21 (Itga1), \u03b1-Klotho, FXR/TMEM16A, ciliary phosphoinositide modulation (INPP5E/PIPKI\u03b3), BICC1 modulation, apelin, emodin, mini-CRISPRa Pkd1 transactivation (in vitro), an emerging inflammation/innate-immunity cluster (TLR2 signalling, kidney resident macrophage niche dynamics, endocannabinoid/IL-6 axis), HIF-1\u03b1\u2013Pannexin-1\u2013ATP purinergic signaling (FASEB J mouse model), and CRISPRa-mediated PKD1 transactivation (organoid model, extending the polycystin-restoration toolkit). Polycystin-restoration approaches now also include collecting-duct-targeted lipid-nanoparticle (LNP) delivery of Pkd2 mRNA to restore polycystin-2 (bioRxiv preprint, proof-of-concept). On the metabolic/repurposing side, anti-polyamine therapy with DFMO/eflornithine (an FDA-approved ODC1 inhibitor) reduced cystic burden in a slow-progression Pkd1RC/RC mouse model (bioRxiv preprint), and mechanistic work links impaired polycystin-1 GPS cleavage to substrate-dependent mitochondrial bioenergetic and calcium-handling defects (Pkd1V/V mouse), reinforcing the metabolic/mitochondrial thesis. Two further pipeline additions this cycle: the PKD1 5'UTR contains translation-suppressing upstream open reading frames (uORFs) whose removal, or blockade with steric antisense oligonucleotides, raises Polycystin-1 protein 2-4-fold and prevents cysts in humanized mouse models (JCI, first disclosure of this mechanism and a candidate ASO-based route to raise PC1 dosage without gene replacement); and a combination siRNA nanoparticle approach co-silencing TMEM16A and MCP-1 in the collecting duct reduced kidney enlargement, cyst burden and macrophage infiltration in a Pkd1-deficient mouse model with added efficacy over single-target silencing (bioRxiv preprint). Separately, a newly re-indexed preprint (ppr_1246945) extends the previously-tracked collecting-duct LNP Pkd2-mRNA work with additional data showing a single dose also reduces cyst burden in Pkd1-deficient mice (not only Pkd2-deficient mice as previously reported) -- this is an extension of already-tracked work, not a new proof-of-concept. Likewise, a newly re-indexed CRISPRa-PKD1 preprint (ppr_1239348) extends the already-tracked organoid CRISPRa work with human ADPKD-patient-derived renal cell data showing an inconsistent response across donors -- a caveat on, not an advance of, the CRISPRa approach's translational readiness.",
+      "confidence": "moderate",
+      "supporting_papers": [
+        "ss_c7cde76754676c60fefb80bc4067e2357c220cec",
+        "pm_41940800",
+        "ss_bbbd0e4ae8c446b239e239a61e131ff998feefbd",
+        "ss_6447270155808ad5e93aae6be2a6b58f574bc2a6",
+        "pm_41864666",
+        "pm_41279527",
+        "pm_41563398",
+        "pm_41563238",
+        "pm_41563399",
+        "pm_41677782",
+        "pm_41758537",
+        "pm_41843812",
+        "pm_42068455",
+        "ss_a0327d4970ecd362e2d970c0fcd50f7dc065af9f",
+        "pm_42092347",
+        "ss_a4f2973499290952dd7f5800edfcda81091c77bd",
+        "ss_a6ae244ffc7faf4fcd766634c34339e116726f4c",
+        "ss_2aff4edc8ab0",
+        "ss_41fcce1a108c",
+        "pm_42176774",
+        "ss_2b067bdcbc",
+        "pm_41274954",
+        "pm_42117913",
+        "ss_288702390",
+        "ss_lnp_pkd2_728835",
+        "pm_42282605",
+        "pm_42275149",
+        "pm_42518289",
+        "ppr_1282997",
+        "ppr_1246945",
+        "ppr_1239348",
+        "pm_42518278",
+        "ppr_1231294"
+      ],
+      "contradicting_papers": [
+        "pm_42091106",
+        "ss_6ab8e58c5ef7"
+      ],
+      "clinical_relevance": "high",
+      "last_updated": "2026-08-09",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 The ADPKD drug pipeline has expanded significantly. VX-407 targets a subset of PKD1 mutations (AGLOW trial). ABBV-CLS-628 (n=240) and JMKX003142 (n=135) are in Phase 2. Multiple Phase 1 agents from major pharma companies indicate strong industry interest."
+        },
+        {
+          "date": "2026-04-12",
+          "note": "Phase 1 entry of PYC-003 confirmed by WCN 2026 abstract (ss_c7cde76). PYC-003 is an antisense oligonucleotide/RNA therapeutic \u2014 represents a mechanism class distinct from all current ADPKD drugs. Also added GV-001 (HDAC6 inhibitor, J Med Chem 2026) as a new preclinical candidate with oral bioavailability demonstrated in animal models. HDAC6 pathway involvement in ADPKD cyst biology is supported by multiple prior studies."
+        },
+        {
+          "date": "2026-04-19",
+          "note": "Farabursen (Regulus Therapeutics miR-17 inhibitor, formerly RGLS8429) Phase 1 trial (NCT05521191) is now listed as COMPLETED, with first clinical efficacy data disclosed via WCN26 abstract WCN26-7987 (ss_bbbd0e4a, Yu, Garg, Bellovich, Silva, Chebib et al., Kidney Int Reports Apr 2026). Abstract title reports: farabursen increases urinary polycystin-1 and polycystin-2 (pharmacodynamic evidence of mechanism engagement) and reduces height-adjusted total kidney volume (htTKV) growth. This is the FIRST disclosed clinical proof-of-concept for polycystin restoration as a therapeutic mechanism in humans. LIMITATIONS: abstract-only disclosure \u2014 no methods, sample size, effect magnitudes, or statistical detail are publicly available. Phase 1 trials are designed for safety/PK, not efficacy. Company-sponsored study. Single-arm with surrogate endpoints only. Prior miR-17 work (RGLS4326) faced CNS toxicity setbacks. Evidence score: 3/10 (pipeline milestone, abstract-only). Importance score: 8/10 (first-in-class PD/efficacy signal). Decision value at present: close monitoring \u2014 full data at later venue and Phase 2 readouts will determine whether this is clinically meaningful. Also adding: chemical chaperones for PC1 maturation (WCN26-5788, Bhardwaj/Fedeles preclinical, ss_6447270) and ALDH1A1/disulfiram + anti-PD-L1 (Zhang/He commentary in KI, pm_41864666, entirely mouse data). These are preclinical and do not change clinical outlook."
+        },
+        {
+          "date": "2026-05-03",
+          "note": "Preclinical/mechanistic batch incorporated; none change current clinical outlook. (1) Lakhia et al. (bioRxiv preprint pm_41279527, peer-reviewed in NAR 2026): disrupting a six-nucleotide miRNA motif raises PKD1 dosage and ameliorates cystic disease in mouse models \u2014 orthogonal genetic-engineering rationale supporting the polycystin-restoration thesis behind farabursen. (2) JASN May 2026 cluster: ciliary phosphoinositide pathway (INPP5E/PIPKI\u03b3, pm_41563398) regulates polycystin dosage in primary cilia; INPP5E inhibition rescues PC1-R3277C ciliary localization and reduces cystogenesis in 3D Matrigel \u2014 orthogonal to Vertex VX-407 small-molecule corrector. Integrin \u03b11\u03b21 (Itga1, pm_41563238) promotes interstitial fibrosis and cyst growth in Pkd1nl/nl mice; Itga1 KO reduces cyst size. \u03b1-Klotho (pm_41563399) delays cyst growth via cIAP1-mediated apoptosis in Pkd1 mutants. BICC1 (pm_41677782, eLife) physically interacts with PKD1/PKD2 and modulates cystogenesis. (3) FXR activation inhibits TMEM16A-mediated chloride secretion and retards cyst progression (pm_41758537, AJP Renal). (4) Apelin inhibits cyst growth in mice (ss_e4860c35, bioRxiv preprint). (5) Reversible cystogenesis in juvenile primate ADPKD (PKD1+/- cynomolgus monkeys, pm_41843812, Hum Mol Genet): novel non-rodent model showing cyst formation and apparent regression of small cysts on serial ultrasound \u2014 useful translational platform but headline 'reversible cystogenesis' overstates what serial-imaging readout can establish; ADPKD has a poor preclinical-to-clinical translation history. ASSESSMENT: target landscape continues to broaden (cilia-trafficking, fibrosis-axis, metabolic, secretion-axis); none of these preclinical signals warrants a confidence shift on the clinical pipeline beyond the currently moderate level. Decision value of this batch is low; research-prioritization value is moderate."
+        },
+        {
+          "date": "2026-06-07",
+          "note": "W23 cycle (June 1\u20137, 2026) \u2014 Two preclinical mechanistic items incorporated; neither changes clinical outlook. (1) HIF-1\u03b1\u2013Pannexin-1\u2013ATP axis (pm_42117913, FASEB J, May 2026): In Pkd1-knockout mouse kidneys, HIF-1\u03b1 accumulation drives upregulation of Pannexin-1 (a membrane channel), increasing extracellular ATP release and activating purinergic receptors (P2X4/P2Y12) that sustain cAMP and mTOR signaling to promote cyst growth. Chemical inhibition or genetic depletion of HIF-1\u03b1 or Pannexin-1 reduced cystic burden in the mouse model. Importance 5/Evidence 3/Novelty 8/Decision 2. LIMITATIONS: Pkd1-KO mouse model only; HIF-1\u03b1 inhibitors have a difficult toxicity profile in systemic use; purinergic receptor pharmacology is highly complex; no organoid or human tissue validation. ADPKD has a poor preclinical-to-clinical translation record. Adds a novel mechanistic connection between hypoxia sensing and cyst-growth signaling but does not yet suggest a clinical target. (2) CRISPRa PKD1 transactivation preprint (ss_288702390, bioRxiv, May\u2013June 2026): dCas9-based transcriptional activator (CRISPRa) directed at the Pkd1 promoter achieves ~3-fold PKD1 upregulation in Pkd1RC/RC-derived organoids and reduces cyst lumen expansion compared to controls. In-vitro/organoid readout only; no in-vivo cyst burden data. Importance 5/Evidence 2/Novelty 7/Decision 2. This extends the polycystin-restoration toolkit (alongside mini-CRISPRa, pm_42068455; farabursen miR-17 inhibitor; translational readthrough, pm_41274954) but remains far from clinical application: delivery to the kidney, off-target chromatin activation, and immunogenicity of the dCas9 payload are unsolved problems. OVERALL: confidence in the overall pipeline statement remains MODERATE. Statement updated to include HIF-1\u03b1\u2013Pannexin-1 as a mechanistic node and CRISPRa Pkd1 transactivation as an additional polycystin-restoration approach."
+        },
+        {
+          "date": "2026-05-31",
+          "note": "W22 cycle (May 25\u201331, 2026) \u2014 Three items incorporated. (1) MQ232 V2R inverse agonist (Wang et al., Kidney International May 2026, pm_42176774): disulfide-rich peptide from green mamba venom acts as a V2R inverse agonist in an orthologous Pkd1 mouse model. Anti-cystic efficacy comparable to tolvaptan, but mechanistic profiling reveals non-cAMP V2R signaling arms (Src/ERK/CRAF/Akt/RPS6/Stat3) contributing to disease attenuation \u2014 dissociating the aquaretic pathway from the anti-cystic pathway. Mechanistically important for understanding tolvaptan's mechanism and motivating biased/inverse agonist design. LIMITATIONS: preclinical only; venom peptide with major pharmacokinetic barriers. (2) Semaglutide diet-dependent preclinical signal (Garimella, APS 2026 abstract, ss_2b067bdcbc): GLP-1RA semaglutide reduces htTKV in HFD-fed but NOT in chow-diet-fed Pkd1RC/RC mice. Diet-dependent effect suggests GLP-1RA benefit in ADPKD may be obesity-conditional, relevant to the tirzepatide trial (NCT06582875) subgroup design. LIMITATIONS: abstract-only, preclinical, n not disclosed. (3) Translational readthrough for PKD1 nonsense mutations (Torban et al., Sci Rep Nov 2025 backfill, pm_41274954): ataluren-class read-through compounds restore PC1 expression in PKD1 nonsense-mutant cells and reduce cystogenesis in zebrafish. Applicable to ~30% of PKD1 patients (nonsense mutation subset). Adds to the polycystin-restoration toolkit but farthest from clinical application. OVERALL: these additions extend the mechanism landscape; the V2R inverse agonism signal is most conceptually novel. None change the overall pipeline confidence level (MODERATE). Statement updated to include MQ232, GLP-1RA obesity conditionality, and readthrough therapy."
+        },
+        {
+          "date": "2026-05-24",
+          "note": "W21 cycle (May 18\u201324, 2026) \u2014 APS 2026 Physiology conference abstract batch incorporated. Three preclinical mechanistic signals from the American Physiological Society annual meeting. (1) Netrin-1 sex dimorphism (ss_2aff4edc, APS 2026 abstract): male Pkd1RC/RC mice have significantly greater renal netrin-1 than females (sex interaction p<0.0001); netrin-1 neutralizing antibody (10 mg/kg/48h, 4 weeks) reduced cyst growth and improved kidney function, with more pronounced effects in males (sex*treatment interaction p<0.002). First identification of netrin-1 as a candidate sex-specific driver of disease severity in ADPKD. LIMITATIONS: abstract-only, n=4-5/group, mouse model, no human data, preclinical-to-clinical translation in ADPKD is historically poor. (2) Lithium carbonate NEGATIVE preclinical signal (ss_6ab8e58c, APS 2026 abstract): Li2CO3 (0.2% diet, 8 weeks) reduced kidney volume on ultrasound in both sexes of Pkd1RC/RC mice and total kidney mass in males (p=0.0178), but worsened cystic index in males (p=0.0262) and reduced tubular min fractal dimension. Tissue injury, fibrosis, cyst quantity, and cross-sectional cyst area were not improved. ASSESSMENT: this is a NEGATIVE preclinical result for lithium carbonate as a cAMP-targeting alternative to tolvaptan. The dissociation between reduced kidney volume and worsened cystic index is a cautionary finding \u2014 kidney volume reduction without structural improvement may reflect hemodynamic effects, not cyst inhibition. LIMITATIONS: abstract-only; mouse model; no human data; results may differ at different doses or durations. (3) Metformin+cinacalcet synergy in vitro (ss_41fcce1a, APS 2026 abstract): combined treatment significantly reduced forskolin-induced cyst growth in human 3D ADPKD cyst-lining epithelial cells vs. either drug alone; synergistic suppression of mTORC1 (S6 ribosomal protein phosphorylation); full restoration of mitochondrial ATP production and OXPHOS. Relevant because both drugs are clinically available and could be tested in combination, but in vitro only \u2014 no in vivo or patient data. OVERALL ASSESSMENT: these three signals extend the mechanistic landscape (sex dimorphism, preclinical negative for lithium, metabolic synergy) but do not warrant confidence-level changes. The lithium negative result specifically prunes this avenue at the preclinical level. ss_6ab8e58c added to contradicting_papers."
+        },
+        {
+          "date": "2026-05-10",
+          "note": "W19 cycle (May 4\u201310, 2026) \u2014 quiet week dominated by preclinical inflammation/innate-immunity signals plus one method paper for polycystin restoration. (1) Mini-CRISPRa for Pkd1 transactivation (Chakraborty/Yu, Mol Biol Reports May 2026, pm_42068455): a one-pot type-IIS-restriction cloning approach shrinks CRISPRa plasmids from 9\u201311 kb to ~6 kb, raises nucleofection efficiency in Pkd1RC/\u2212 cells from 16% \u2192 54% and in primary Pkd1RC/Cond;Pkhd1Cre+ cells from 10% \u2192 31%, and upregulates endogenous Pkd1 4.1-fold (cell line) / 2.9-fold (primary cells). In vitro only; no in-vivo cyst readout. Provides a methodologic enabling step for non-AAV CRISPRa polycystin restoration but does not change clinical outlook. (2) Inflammation/innate-immunity preclinical cluster \u2014 three convergent signals plus one title-only entry. (a) TLR2 agonism with Pam3CSK4 (Wei et al., IJMS May 2026, ss_a0327d4970ec) amplifies NF-\u03baB, mTOR, c-Myc/Wnt and accelerates cyst growth and renal fibrosis in Pkd1RC/RC mice; endogenous TLR2 ligands decorin/biglycan are elevated in human PKD kidneys. Agonist-driven design with no antagonist arm \u2014 limits causal inference about TLR2 blockade as a therapeutic strategy. (b) Kidney resident macrophage (KRM) niche-filling kinetics (Yashchenko et al., Kidney360 May 2026, pm_42092347): partial liposomal-clodronate depletion reveals that healthy mice refill KRM via monocyte recruitment whereas cystic mice rely preferentially on in-situ KRM self-proliferation. Female cystic mice show a sex-specific niche-refilling deficit at 90 days that tracks with worse cystic index, fibrosis, and kidney function. Hypothesis-generating; does not yet specify a tractable target. (c) Endocannabinoid system (ECS) \u2013 inflammation axis: Simankowicz et al. (IJMS May 2026, ss_a4f2973499) case-control n=105 finds lower plasma AEA and 2-AG (p<0.001) and higher IL-6 (p<0.001) in ADPKD; companion Betkar/Tam translational paper (Mol Med Mar 2026, ss_a6ae244ffc) reports progressive ECS dysregulation with disease severity in transcriptomic + mouse data, with CB1R as a candidate target. Cross-sectional, single-centre human data; no longitudinal eGFR/TKV outcome support. (d) Title-only Journal of Nephrology paper (pm_42096327, Juanlu et al. May 2026) proposes an interferon \u2192 NETosis \u2192 IL-6 \u2192 epithelial-mesenchymal-transition axis defining an early therapeutic window; abstract not yet indexed. Promotional framing flagged; treat as background until full text. (3) Retraction (pm_42091106, Renal Failure May 6 2026): the 2020 miR-25-3p / ATG14-Beclin polycystic kidney mouse paper (PMID 32340512) is retracted. Removes one preclinical mechanism from the dataset; reinforces the broader caution that ADPKD's preclinical literature has integrity issues and that single-paper mechanism claims should not anchor pipeline reasoning. ASSESSMENT: confidence in the overall pipeline statement remains MODERATE. The inflammation/innate-immunity cluster does NOT yet justify a new finding \u2014 three convergent but small/preclinical signals do not constitute a clinical hypothesis. Statement updated to (i) include mini-CRISPRa as another polycystin-restoration angle and (ii) acknowledge the emerging inflammation/immunity cluster; pm_42091106 added as a contradicting (retracted) reference."
+        },
+        {
+          "date": "2026-06-14",
+          "note": "W24 cycle (June 8\u201314, 2026) \u2014 three preclinical/translational additions, all hypothesis-generating, none changing confidence (remains MODERATE for the overall pipeline statement). (1) Collecting-duct-targeted LNP Pkd2 mRNA (ss_lnp_pkd2_728835 / PMID 42282798, bioRxiv preprint posted 2026-06-05): reports collecting-duct-targeted lipid nanoparticles delivering Pkd2 mRNA to restore polycystin-2 and attenuate cyst expansion in a preclinical ADPKD model. This is a genuinely novel MODALITY (novelty 8) addressing the renal-epithelial delivery barrier that has limited ADPKD gene therapy, and complements the existing polycystin-restoration toolkit (VX-407 small-molecule PKD1 corrector, farabursen miR-17 inhibitor, PYC-003 RNA therapy, CRISPRa, ataluren readthrough). LIMITATIONS: preprint, not peer-reviewed; no author list indexed; surrogate cyst-burden endpoint only; promotional_framing and no_full_methods flags; PKD2-directed (PKD2 is the milder ~15-20% genotype); delivery efficiency, durability of mRNA dosing, and immunogenicity unaddressed; evidence 2/10. (2) Anti-polyamine therapy / DFMO (pm_42282605, Hopp/Swenson-Fields et al., bioRxiv preprint posted 2026-06-05): 5-month oral DFMO (eflornithine, FDA-approved ODC1 inhibitor) reduced kidney-weight/body-weight ratio, cystic index, and cyst number in Pkd1RC/RC mice, with RNA-seq normalization of PKD-perturbed pathways and an inferred shift away from M2-like macrophage fate. Notable because (a) it uses a SLOW-progression orthologous model (more translationally relevant than rapid models) and (b) DFMO is an already-approved drug, lowering the repurposing barrier. LIMITATIONS: preprint, not peer-reviewed; surrogate cyst endpoints, no eGFR/kidney-function outcome; no full methods; no human data; ADPKD has a poor preclinical-to-clinical translation record; importance 5/evidence 3. (3) Polycystin-1 GPS cleavage and mitochondria (pm_42275149, Amaral et al., Am J Physiol Renal Physiol): in the orthologous Pkd1V/V model (disrupted PC1 GPS cleavage), kidney mitochondria show reduced complex I (NADH-linked) respiration and calcium uptake but NOT with succinate, with decreased complex I/III/V subunits and Ca2+-handling proteins (VDAC1, MCU, MICU1/2, NCLX); mitochondrial mass/redox markers preserved, indicating a FUNCTIONAL rather than mass defect. Mechanistic only; male mice only; no therapeutic readout; importance 4/evidence 3. OVERALL: the metabolic/mitochondrial and gene/mRNA-restoration threads continue to broaden, but all three items are preclinical (two are unrefereed preprints). They reinforce existing directions without providing clinical evidence. No confidence change."
+        },
+        {
+          "date": "2026-08-02",
+          "note": "Deep analysis cycle. Two genuinely new preclinical/pipeline items added (PKD1 uORF/ASO, pm_42518289; combination siRNA nanoparticle, ppr_1282997). Two additional items (ppr_1246945, ppr_1239348) were identified as re-indexed / duplicate disclosures of research already captured in this finding as of the 2026-06-07/06-14 cycles (same publication dates: 2026-06-05 and 2026-05-25 respectively), re-surfaced by the scan pipeline via a different source ID (EuropePMC preprint ID vs. prior Semantic Scholar ID) during the pipeline gap. Per freshness rules, these are NOT treated as new scientific events -- only their incremental new details (Pkd1-model cross-genotype efficacy; heterogeneous human-donor CRISPRa response) are noted above. This is flagged explicitly because it reflects a paper-deduplication gap in the tracking pipeline, not new data. All items remain preclinical or in-vitro; confidence in this finding stays MODERATE (breadth of approaches has grown, clinical evidence has not)."
+        },
+        {
+          "date": "2026-08-09",
+          "note": "Recurring pipeline-deduplication gap: two 'new' PubMed entries this cycle -- pm_42538939 (combination TMEM16A+MCP-1 siRNA, peptide-micelle delivery, Chung lab/Silver Spur Therapeutics) and pm_42539110 (Gd-hProCA32.Collagen molecular MRI fibrosis probe) -- are confirmed re-indexed full-paper/PubMed disclosures of preprints ppr_1282997 and ppr_1283036, both already incorporated in the W31 catch-up digest (2026-08-02). These are publication events, not new scientific events, and are NOT counted as fresh pipeline breadth (this is the second consecutive cycle this dedup gap has recurred -- see Skepticism Notes). Full-text review of pm_42538939 also surfaces a conflict of interest the scan pass missed: three authors (Huang, Bae, Chung) are co-founders of Silver Spur Therapeutics, Inc., which is commercializing this delivery platform -- not disqualifying for preclinical work, but should be disclosed alongside the finding. Separately, pm_42539110's senior author (J.J.Y.) holds equity/patents in InLighta Biosciences, which commercializes the ProCA contrast-agent platform used in the collagen-MRI study -- also missed by the scan pass. Genuine (if modest) additions to preclinical breadth this cycle: pm_42518278 (cross-model single-cell atlas, full-paper publication of a Sep-2025 preprint; global Spp1/osteopontin deletion produced only a 'modest' reduction in cyst severity and improved kidney function in Pkd1RC/RC mice -- mouse-only, explicitly modest effect size, not overclaimed by the authors); ppr_1231294 (Ogt/O-GlcNAc transferase deletion, ~8-month-old preprint newly surfaced via the Europe PMC sweep, notably large survival extension in a rapid-progression Pkd1 mouse model -- an unusually strong preclinical effect size that warrants cautious interpretation before assuming translatability, consistent with ADPKD's weak preclinical-to-clinical translation record). Confidence remains MODERATE: pipeline breadth continues to widen on paper, but no candidate moved toward humans this cycle, and this cycle's headline 'new' items were mostly not actually new."
+        }
+      ]
+    },
+    {
+      "id": "finding_005",
+      "dimension": "pharmacological",
+      "subtopic": "repurposed_drugs",
+      "statement": "SGLT2 inhibitors show promising but not definitive signals for ADPKD. Propensity-matched real-world data suggest a dialysis benefit (HR 0.35 for dialysis initiation in non-diabetic ADPKD); a first ADPKD-specific systematic review/meta-analysis (Tantush et al., Cureus, 8 studies, n=3,180) reports a pooled eGFR slope attenuation of ~1.34 mL/min/1.73 m\u00b2/yr but is built mostly on small short-duration mixed-quality cohorts with non-diabetic subgroup non-significance. Phase 3 confirmation is underway via STOP-PKD (dapagliflozin, n=420); EMPA-PKD (Nitsche, ACTIVE_NOT_RECRUITING) and the Seliger empagliflozin pilot (n=50, US) will provide supportive data. Mechanistic rationale (metabolic reprogramming, hemodynamic stabilization, tubular protection) is strong.",
+      "confidence": "moderate",
+      "supporting_papers": [
+        "pm_41853136",
+        "pm_40303212",
+        "pm_40199734",
+        "pm_41212622",
+        "pm_41505371",
+        "ss_8fb6243944d7e14afffa599bbcf6bca30fd447c2",
+        "ss_e4e1b33cbea3209a29ae9c3e680efa675a045148",
+        "ss_136bc72884e29e4d93c7817c306307b255760718",
+        "pm_41018274",
+        "pm_42544557"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-08-09",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 SGLT2 inhibitors have strong evidence in CKD but ADPKD-specific data is still emerging. STOP-PKD is a Phase 3 trial (University of Cologne) which could be practice-changing if positive."
+        },
+        {
+          "date": "2026-04-12",
+          "note": "Confidence raised from low to moderate based on: (1) Real-world retrospective cohort (TriNetX, n=187 matched pairs, Chang et al. 2026): HR 0.35 for dialysis, 10.2% vs 23% dialysis rates \u2014 first real-world patient-important endpoint data for nondiabetic ADPKD. (2) Japanese open-label crossover RCT (Uchiyama et al., n=27) showing additive SGLT2i effects on top of tolvaptan. (3) Comprehensive JASN mechanism review (Bou Antoun et al., April 2026) confirms multi-pathway rationale. IMPORTANT CAVEAT: All human data remain observational or small; STOP-PKD Phase 3 (n=420) is the critical test. Propensity matching does not eliminate confounding \u2014 patients prescribed SGLT2i off-label may have been systematically different from controls."
+        },
+        {
+          "date": "2026-04-19",
+          "note": "Three additional SGLT2i items incorporated, none individually practice-changing. (1) Seliger et al. (Am J Nephrology Jan 2026, pm_41505371): published design and baseline characteristics of a 1-year randomized placebo-controlled empagliflozin pilot (n=50 nondiabetic ADPKD, eGFR 30-90, two US sites). Primary endpoint is safety/tolerability of 25 mg dose; secondary endpoints TKV, kidney function, aortic stiffness, copeptin, KIM-1, PKD-specific HRQOL. Pilot only \u2014 cannot answer efficacy question with n=50, 1 year. Adds US-based RCT infrastructure ahead of STOP-PKD. (2) ElSharkawy et al. WCN26-4862 (ss_8fb6243): TKV changes observed with dapagliflozin in ADPKD. Conference abstract, likely single-arm/small/pre-post, no methods disclosed \u2014 hypothesis-generating only. Direction of TKV effect unclear from abstract title. (3) Takenaka et al. WCN26-3952 (ss_e4e1b33): mechanistic/pathophysiology abstract on SGLT2i in PKD. Background only. Confidence level unchanged (remains moderate). STOP-PKD (n=420, Phase 3) remains the decisive test; the EMPA-PKD (Nitsche) and Seliger empagliflozin pilot will provide supportive dosing/safety data."
+        },
+        {
+          "date": "2026-05-03",
+          "note": "First ADPKD-specific SGLT2i systematic review/meta-analysis incorporated (Tantush et al., Cureus Apr 2026, ss_136bc72): 8 studies, n=3,180. Pooled eGFR slope attenuation +1.344 mL/min/1.73 m2/yr; modest hemoglobin rise; the initial eGFR dip was characterized as a class effect, not ADPKD-specific harm. The non-diabetic ADPKD subgroup showed numerically larger benefit but did not reach statistical significance, consistent with smaller cohorts. LIMITATIONS: Cureus is a low-prestige open-access journal; the underlying studies are predominantly small, short-duration, retrospective, or mixed diabetic/non-diabetic; surrogate endpoint only; substantial heterogeneity. The summary effect size is consistent with the SGLT2i CKD class effect (~1 mL/min/1.73 m2/yr) rather than an ADPKD-specific signal. ASSESSMENT: this synthesis strengthens the rationale for the ongoing prospective RCTs (STOP-PKD, EMPA-PKD, Seliger pilot) but does not establish disease modification. Confidence remains MODERATE; statement updated to reflect that the meta-analytic signal is consistent with class-effect rather than ADPKD-specific benefit."
+        },
+        {
+          "date": "2026-05-31",
+          "note": "W22 backfill incorporated: Nakajima et al. (Clinical Kidney Journal Sep 2025, pm_41018274): small Japanese single-centre within-patient analysis of dapagliflozin added on to existing tolvaptan therapy in ADPKD. Reports potential additive eGFR-slope signal within-group. LIMITATIONS: no control arm; within-group design cannot separate dapagliflozin effect from hemodynamic dip (expected SGLT2i class effect), regression-to-mean, or concurrent treatment changes; small n; short follow-up. Hypothesis-generating context for STOP-PKD (NCT07280585). Confidence unchanged (MODERATE). Statement unchanged; paper added to supporting_papers for completeness."
+        },
+        {
+          "date": "2026-08-02",
+          "note": "A corrigendum (pm_42473614) was indexed for the TriNetX real-world SGLT2 inhibitor study underlying the HR 0.35 dialysis-initiation estimate cited in this finding. The correction text is not exposed in the PubMed record, so it is currently UNKNOWN whether it is trivial (e.g., affiliation) or affects the effect estimate. Confidence NOT changed pending review of the correction text; flagged for priority follow-up next cycle -- do not cite the HR 0.35 figure without checking the corrigendum content first."
+        },
+        {
+          "date": "2026-08-09",
+          "note": "A second independent systematic review (pm_42544557, Naeem et al., Annals of Pharmacotherapy, epub 2026-08-03; PRISMA 2020, PubMed/Embase/Scopus through May 2026, 11 studies: 4 preclinical, 1 RCT, 6 observational/case-based) reaches a nuanced conclusion that refines rather than strengthens this finding: preclinical and clinical data are more consistent for FUNCTIONAL outcomes (blood pressure, proteinuria, metabolic markers) than for STRUCTURAL outcomes (TKV/cyst growth, which showed 'slight or inconsistent' effects). Diverse clinical data prevented quantitative pooling, so this adds synthesis-level texture, not new primary evidence. Note: the review's own 'Relevance to Patient Care' language ('advocate for the use of SGLT2i as effective supplements... regardless of structural kidney alterations') runs slightly ahead of its own evidence base of mostly small, short-duration, largely non-ADPKD-specific class-effect studies -- a claim-calibration caution worth carrying forward. Confidence remains MODERATE; this is still a synthesis of existing signals awaiting STOP-PKD/EMPA-PKD/Seliger pilot confirmation, and the functional-vs-structural distinction sharpens what 'promising' should mean here: BP/proteinuria/metabolic benefit is better supported than disease-modifying (TKV) benefit."
+        }
+      ]
+    },
+    {
+      "id": "finding_006",
+      "dimension": "pharmacological",
+      "subtopic": "repurposed_drugs",
+      "statement": "GLP-1 receptor agonists are entering ADPKD trials with tirzepatide being evaluated in a Phase 2 study (NCT06582875, n=126) at University of Colorado",
+      "confidence": "low",
+      "supporting_papers": [
+        "pm_42398811"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-08-02",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 Rationale based on metabolic reprogramming in ADPKD cyst cells and cardiorenal benefits of GLP-1 RAs. First dedicated ADPKD trial with tirzepatide is a significant development."
+        },
+        {
+          "date": "2026-08-02",
+          "note": "A translational review (pm_42398811, Translational Research, ahead-of-print 2026-07-12) synthesizes the metabolic rationale for GLP-1 receptor agonists in ADPKD, including semaglutide data in Pkd1 mouse models and the design logic for phenotype-enriched early-phase trials, and contextualizes the tracked tirzepatide Phase 2 trial (NCT06582875). No new primary data. The review itself notes that causal and therapeutic evidence for the metabolic hypothesis remains incomplete, and mouse semaglutide data have a poor track record of translating in ADPKD. Confidence remains LOW; this is background context only, not an evidentiary update."
+        }
+      ]
+    },
+    {
+      "id": "finding_007",
+      "dimension": "management",
+      "subtopic": "guidelines",
+      "statement": "The KDIGO 2025 Clinical Practice Guideline for ADPKD represents the first comprehensive international guideline for ADPKD evaluation, management, and treatment. Regional commentaries (KDOQI in the US, ERA Working Group Genes & Kidney in Europe, CARI in Australia/New Zealand, and the Canadian Society of Nephrology in Canada) translate the guideline to local contexts; the ERA commentary specifically endorses risk-stratified intracranial aneurysm screening with contrast-free MRA and clarifies that thoracic (but not abdominal) aortic aneurysms are increased in ADPKD. A Japanese nationwide database study (n\u22482.57M, pm_41881380) quantifies the aortic dissection hazard ratio at approximately 1.76 compared to matched controls, providing population-level epidemiological support for the ERA's vascular screening guidance.",
+      "confidence": "high",
+      "supporting_papers": [
+        "ss_43f888a72ef1e378d75792cc3053303b2911ff74",
+        "pm_41864657",
+        "pm_42065712",
+        "pm_42011799",
+        "pm_41881380",
+        "pm_42257014"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "high",
+      "last_updated": "2026-06-14",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 Landmark guideline published in Kidney International (Feb 2025). Covers all aspects of ADPKD management from diagnosis to treatment. Establishes framework for tolvaptan eligibility, monitoring, and co-management of complications."
+        },
+        {
+          "date": "2026-04-12",
+          "note": "KDIGO 2025 executive summary (ss_43f888a72ef1, Kidney International 2025-02) and KDOQI US Commentary (Dahl et al., AJKD 2026-04, pm_41864657) incorporated. The KDOQI work group generally concurs with KDIGO recommendations on diagnosis, kidney manifestations, CKD management, and therapies. Commentary acknowledges barriers to implementation in US context (e.g., REMS requirements for tolvaptan, access issues). KDOQI also acknowledges growing evidence for nomenclature change in ADPKD. Both documents are background/context \u2014 they do not generate new evidence but help translate the guideline into practice."
+        },
+        {
+          "date": "2026-06-07",
+          "note": "W23 cycle (June 1\u20137, 2026) \u2014 Aortic dissection epidemiology incorporated (pm_41881380, Japanese nationwide database study, ePublish March 2026 / print June 2026, n\u22482.57M). ADPKD patients had significantly elevated risk of aortic dissection vs. matched controls (HR 1.76; exact 95% CI to be confirmed from full text). STALENESS NOTE: this paper was ePublished March 2026 and is now appearing in a June 2026 print issue batch \u2014 the scientific event is approximately 3 months old and was already flagged in the W23 digest as the sole highlight with a staleness warning. RELATIONSHIP TO FINDING_007: this epidemiological finding complements the ERA Working Group KDIGO 2025 commentary (pm_42065712) which endorsed risk-stratified screening for thoracic aortic aneurysms but did not quantify the aortic dissection hazard with a large population-based estimate. The HR 1.76 magnitude is clinically meaningful and supports the ERA commentary's recommendation that thoracic (but not abdominal) aortic aneurysm risk is elevated in ADPKD. LIMITATIONS: retrospective nationwide database study \u2014 diagnostic coding accuracy for ADPKD and aortic dissection in Japanese administrative databases is uncertain; comorbidity-matching completeness unknown; external generalizability to non-Japanese (non-Asian) ADPKD populations requires separate study. Importance 6/Evidence 5/Novelty 5/Decision 5. Confidence in finding_007 statement unchanged (HIGH)."
+        },
+        {
+          "date": "2026-05-03",
+          "note": "Two further regional commentaries incorporated. (1) ERA Working Group Genes & Kidney commentary on KDIGO 2025 ICA/vascular section (pm_42065712, NDT May 2026): endorses risk-stratified ICA screening based on family history of ICA/SAH/sudden death, smoking, and BP control rather than universal screening; contrast-free MRA preferred imaging; 5-10 year rescreening in high-risk individuals with negative initial scan; thoracic aortic aneurysm clearly associated with ADPKD with family screening recommended; abdominal aortic aneurysm not increased. (2) CARI commentary for Australia/New Zealand (Abdy et al., Internal Medicine Journal Apr 2026, pm_42011799): adapts KDIGO recommendations to local context. Both are practice-relevant clarifications, particularly on vascular screening; do not generate new primary evidence but reduce ambiguity in clinic implementation."
+        },
+        {
+          "date": "2026-06-14",
+          "note": "W24 cycle (June 8\u201314, 2026) \u2014 Canadian Society of Nephrology (CSN) commentary on the KDIGO 2025 ADPKD guideline incorporated (pm_42257014, Lanktree et al., Can J Kidney Health Dis, ePublish June 3 / indexed June 8). This is the FOURTH regional adaptation tracked (after KDOQI US, ERA Europe, CARI AU/NZ). It adapts KDIGO recommendations to Canadian practice, emphasizing multidisciplinary care, genetic-testing access challenges, and SGLT2 inhibitor use; it was built on KDIGO evidence summaries via expert survey/consensus and did NOT update the underlying systematic reviews. CLASSIFICATION: background/context \u2014 no new disease-specific evidence is generated; relevance is largely Canada-specific. Importance 5/evidence 5/novelty 5/decision 4/calibration 9. Confidence in finding_007 unchanged (HIGH). The accumulation of four concordant regional commentaries reflects broad international uptake of KDIGO 2025 rather than any change in the evidence base."
+        }
+      ]
+    },
+    {
+      "id": "finding_008",
+      "dimension": "genetics",
+      "subtopic": "progression_biomarkers",
+      "statement": "Total kidney volume (TKV) is FDA-qualified as a prognostic enrichment biomarker and is a 'reasonably likely' surrogate endpoint for ADPKD drug development. A new quantitative framework (Yu et al., CJASN Feb 2026) translates a 1%/year reduction in TKV growth rate into ~0.40-0.52 mL/min/1.73 m\u00b2/yr slower eGFR decline within Mayo Imaging Classes 1C-1E, providing a scaffold for accelerated-approval discussions. Externally-validated automated AI-based segmentation tools (e.g., Sharbatdaran TraceOrg, JASN May 2026) are reducing measurement friction. In eGFR<60 patients, combining Mayo Imaging Class with the Kidney Failure Risk Equation (KFRE) improves risk discrimination beyond MIC alone.",
+      "confidence": "high",
+      "supporting_papers": [
+        "pm_41686506",
+        "pm_41186985",
+        "ss_0f028a9daccf6b55ccf45883ee8dd3e1d679379f",
+        "pm_41591418",
+        "pm_42237252",
+        "ppr_1290523"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "high",
+      "last_updated": "2026-08-09",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 TKV is FDA-qualified as a prognostic enrichment biomarker. Deep learning algorithms for kidney volume measurement are approaching clinical readiness per systematic review. Mayo classification system widely used for risk stratification."
+        },
+        {
+          "date": "2026-06-07",
+          "note": "W23 cycle (June 1\u20137, 2026) \u2014 Biomarker systematic review/meta-analysis incorporated (pm_42237252, 58 studies). GRADE-rated evidence synthesis across multiple serum and urine biomarker classes proposed for ADPKD monitoring (NGAL, MCP-1, VEGF, uromodulin, KIM-1, and others). Key conclusion: no single serum biomarker has accumulated sufficient evidence quality to qualify for clinical integration alongside TKV and eGFR slope. Candidates remain investigational, with most studies being small, cross-sectional, and not validated against patient-important outcomes. Importance 5/Evidence 5/Novelty 6/Decision 5. ASSESSMENT: this synthesis is consistent with the existing finding_008 statement that TKV and eGFR slope remain the only clinically actionable biomarkers. The GRADE framing usefully quantifies why the gap persists: most biomarker studies have been conducted in small cohorts without prespecified outcome definitions or longitudinal validation. Confidence unchanged (HIGH). Statement not materially changed \u2014 the SR/MA reinforces existing position rather than adding new information."
+        },
+        {
+          "date": "2026-05-03",
+          "note": "Multiple TKV-related items incorporated this digest cycle. (1) Yu et al. (CJASN Feb 2026, pm_41686506) \u2014 already alerted 2026-04-21: intraindividual mixed-effects modeling of CRISP+HALT-PKD A relating log(TKV) to eGFR within each Mayo Imaging Class. Within classes 1C-1E, each 1 percentage-point/year reduction in TKV growth rate translates to ~0.40-0.52 mL/min/1.73m\u00b2/yr slower eGFR decline. Importance 8/Evidence 6/Decision 8/Calibration 9. Pipeline-relevant: directly informs trial-design and accelerated-approval thresholds for VX-407, ABBV-CLS-628, PYC-003, JMKX003142, farabursen Phase 2, CAM2029, tamibarotene. LIMITATIONS: observational registry modeling, not randomized treatment effects; generalizability to Mayo class 2 and non-cAMP mechanisms unvalidated; does not yet equate to FDA acceptance of a specific surrogate threshold. (2) Sharbatdaran et al. (JASN May 2026, pm_41186985): hybrid 3D U-Net + transformer model for automated kidney/liver/cyst volumetry, externally validated on CRISP, PKD-RRC, and other datasets, with browser-side DICOM anonymization. Practice-relevant friction-reducer for Mayo Imaging Class assignment; could broaden tolvaptan eligibility decisions in non-academic settings. (3) Validation of TKV+KFRE combination (ss_0f028a9d, KI Reports Mar 2026): retrospective ADPKD cohort, in eGFR<60 group adding KFRE to Mayo Imaging Class improved 1-year discrimination (\u0394C up to 0.47). (4) Roth/Dahl/Garimella review of evolution of CT design in ADPKD (pm_41736773, KI Reports Apr 2026) provides context on TKV's surrogate journey and adaptive/platform-trial designs for the active pipeline. Confidence remains HIGH; statement expanded to capture quantitative regulatory framework and accessible automated tooling."
+        },
+        {
+          "date": "2026-08-09",
+          "note": "A preprint (ppr_1290523, Schirmer/Kopp et al., posted 2026-08-02) reports 7T 23Na (sodium) MRI in 20 ADPKD patients classifying 2,299 individual cysts into high-[Na+] (proximal-tubule-origin) vs low-[Na+] (distal/collecting-duct-origin) phenotypes, with the vasopressin V2 receptor (tolvaptan's target) detected exclusively in the low-[Na+], collecting-duct-origin cyst population (a highly variable 4.6-83.9% of cysts per patient). This is a novel functional-imaging concept -- distinct from and complementary to volumetric TKV -- that could in principle help identify which patients or cysts are more likely to be tolvaptan-responsive. It does not change TKV's status as the field's validated surrogate. Limitations: preprint, not peer-reviewed; n=20, single-center, purely correlative/exploratory with no treatment-response or outcome data; anatomical location did not predict sodium phenotype, so this is a genuinely functional (not structural) signal that would need prospective validation against actual tolvaptan response before any stratification use. Hypothesis-generating only; does not affect TKV's confidence rating."
+        }
+      ]
+    },
+    {
+      "id": "finding_009",
+      "dimension": "dietary",
+      "subtopic": "water_intake",
+      "statement": "Prescribed water therapy to suppress vasopressin shows feasibility in ADPKD, reducing urine osmolality and copeptin levels, but long-term adherence and efficacy data are limited",
+      "confidence": "low",
+      "supporting_papers": [],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-04-04",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 Feasibility study (Kidney360, 2024) showed biological effect but patient burden is significant. Represents non-pharmacological vasopressin suppression strategy as alternative/complement to tolvaptan."
+        }
+      ]
+    },
+    {
+      "id": "finding_010",
+      "dimension": "pharmacological",
+      "subtopic": "somatostatin",
+      "statement": "Hydrochlorothiazide is being investigated as an adjunct therapy to improve tolvaptan tolerability and polycystic liver co-management, with the HYDROPROTECT trial (NCT05373264, n=300, Phase 3) actively recruiting",
+      "confidence": "low",
+      "supporting_papers": [],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-04-04",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 HYDROPROTECT at University Medical Center Groningen is testing whether hydrochlorothiazide can mitigate aquaretic side effects of tolvaptan and improve quality of life. Novel combination approach."
+        }
+      ]
+    },
+    {
+      "id": "finding_011",
+      "dimension": "pharmacological",
+      "subtopic": "repurposed_drugs",
+      "statement": "Pravastatin showed no significant benefit on kidney disease outcomes in adult patients with early ADPKD in a double-blind RCT (n=150, 24 months). The annual HtTKV increase was 3.1%/yr (placebo) vs 4.3%/yr (pravastatin), with no significant difference. Secondary outcomes of kidney blood flow and measured GFR also showed no benefit. This rules out pravastatin repurposing for the sole purpose of slowing adult early-stage ADPKD, as confirmed in a Kidney International editorial by Torres (Feb 2026).",
+      "confidence": "high",
+      "supporting_papers": [
+        "pm_41077128",
+        "pm_41577391"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-04-19",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 RCT published in Kidney International (2025) showed negative results for pravastatin in early ADPKD. This contrasts with earlier pediatric data (HALT-PKD) that suggested potential benefit in younger patients."
+        },
+        {
+          "date": "2026-04-12",
+          "note": "RCT data now incorporated (NCT03273413, Gitomer et al., Kidney Int 2026). Results: HtTKV annual rate placebo 3.1% vs pravastatin 4.3% (not significant, trend AGAINST pravastatin). mGFR change -2.3 vs -1.4 mL/min/1.73m\u00b2 (not significant). Renal blood flow: no significant difference. A well-powered double-blind 24-month RCT \u2014 this is definitive for adult ADPKD. The earlier pediatric data (HALT-PKD) suggesting statin benefit in children does NOT generalize to adults. Decision value: HIGH \u2014 this closes the question for adult patients and clinicians asking about statin repurposing."
+        },
+        {
+          "date": "2026-04-19",
+          "note": "Editorial commentary by V.E. Torres (Kidney International Feb 2026, pm_41577391) added as supporting commentary. Torres concludes that the Gitomer et al. pravastatin trial 'does not support treatment with statins for the only purpose of delaying disease progression' but notes that cholesterol trafficking is important for polycystin function in primary cilia, leaving the door open for nuanced effects of other lipid-lowering therapies (e.g., PCSK9 inhibitors, other statins in other populations). This does not alter the current high-confidence negative finding on pravastatin for adult early-stage ADPKD disease modification."
+        }
+      ]
+    },
+    {
+      "id": "finding_012",
+      "dimension": "dietary",
+      "subtopic": "BHB_supplementation",
+      "statement": "Exogenous ketone supplementation (BHB, ketone diol R-1,3-butanediol) is being evaluated as a more practical alternative to strict ketogenic diets for ADPKD, with an active trial at G\u00f8dstrup Hospital (NCT06867471)",
+      "confidence": "low",
+      "supporting_papers": [],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-04-04",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 Exogenous ketones may provide metabolic benefits of ketosis without dietary restriction burden. KETO-ADPKD subanalyses suggest ketosis level matters more than specific dietary approach."
+        }
+      ]
+    },
+    {
+      "id": "finding_013",
+      "dimension": "management",
+      "subtopic": "liver_disease",
+      "statement": "Polycystic liver disease co-management is an important aspect of ADPKD care, with GnRH agonists (leuprorelin) being studied in pre-menopausal women (NCT05478083) and somatostatin analogues established for severe cases",
+      "confidence": "moderate",
+      "supporting_papers": [],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-04-04",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 UMCG trial of leuprorelin for severe polycystic liver disease in pre-menopausal women addresses hormonal influence on liver cyst growth. KDIGO 2025 includes liver disease management recommendations."
+        }
+      ]
+    },
+    {
+      "id": "finding_014",
+      "dimension": "management",
+      "subtopic": "pediatric",
+      "statement": "Pediatric ADPKD management is receiving increased attention. Multiple converging cross-sectional observations now establish that hypertension in children with ADPKD is both common (12% overt + 7% masked hypertension, Heming et al. n=116) and associated with higher cyst burden and left ventricular hypertrophy. The largest pediatric macroscopic-hematuria series (Seeman et al., n=289) confirms MaHu as a marker of more advanced disease warranting closer BP monitoring. KDIGO 2025 and its pediatric executive summary provide the evidence-based framework; King's College London is studying BP in at-risk children (NCT07260071) and tolvaptan PK/PD is being studied in adolescents (NCT04782258). A meta-analysis of 19 studies (736 children) quantifies a distinct very-early-onset (VEO) ADPKD phenotype: VEO-ADPKD carries higher odds of hypertension, proteinuria, CKD and kidney failure than non-VEO pediatric ADPKD, and biallelic PKD1 mutations and perinatal death occurred exclusively in the VEO group, supporting early genetic evaluation to identify biallelic PKD1 cases (whose course resembles mild ARPKD) in children presenting in utero or in the first 18 months.",
+      "confidence": "moderate",
+      "supporting_papers": [
+        "pm_42098312",
+        "pm_42151644",
+        "pm_42401882"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "high",
+      "last_updated": "2026-08-02",
+      "evolution": [
+        {
+          "date": "2026-04-04",
+          "note": "Initial baseline \u2014 Tolvaptan PK/PD in adolescents published (Eur J Pediatrics, 2025). Otsuka Phase 3 trial (NCT04782258) for pediatric tolvaptan suspension. King's College London studying hypertension in at-risk children. KDIGO 2025 includes pediatric recommendations."
+        },
+        {
+          "date": "2026-05-24",
+          "note": "Heming et al. (Pediatric Nephrology, May 19 2026, pm_42151644) incorporated. Single-centre cross-sectional study, n=116 children (<18 years) with ADPKD. Hypertension prevalence: 12% overt (n=14) + 8 with masked hypertension \u2014 19% of children had some form of elevated BP. High-BP subgroup (n=30, 26%) had higher cyst burden vs normotensives (56% vs 34%, p=0.036), higher rates of LVH (16.6% vs 4.6%, p=0.034), and higher relative LV wall thickness (0.34 vs 0.29, p<0.001). CLINICAL IMPLICATION: masked hypertension is common in pediatric ADPKD and is associated with target organ damage (LVH) and structural disease burden (cyst burden). Routine ambulatory BP monitoring to detect masked hypertension appears warranted. LIMITATIONS: single-centre cross-sectional design; cross-sectional analysis cannot establish whether elevated BP precedes cyst growth or vice versa; sample size modest; LVH was measured by echocardiography-based criteria that require validation against gold-standard cardiac MRI; tertiary referral bias may overestimate prevalence of hypertension and LVH in the broader pediatric ADPKD population. Importance 6/Evidence 5/Novelty 7/Decision 6/Calibration 8. Complements Seeman et al. (MaHu series) \u2014 both papers confirm that BP monitoring in pediatric ADPKD requires structured, consistent surveillance including 24-h ABPM."
+        },
+        {
+          "date": "2026-05-10",
+          "note": "New finding from Seeman et al. (European Journal of Pediatrics, May 7 2026, pm_42098312). Retrospective analysis of 289 children (median age 10.2 y) with ADPKD across four European tertiary nephrology centres. Macroscopic hematuria (MaHu) occurred in 21/289 (7.2%) and was the second most frequent presenting symptom (11/51). Etiologies included ruptured cyst, UTI, and urolithiasis. MaHu+ vs MaHu\u2212 children: antihypertensive use 14.3% vs 3.1% (p=0.017); BP \u226575th percentile 95% vs 64% (p=0.002); cyst count median 20 vs 10 (p=0.038). No other significant between-group differences. CLINICAL IMPLICATION: this is the largest pediatric ADPKD MaHu series to date and supports closer BP and imaging follow-up after a MaHu episode in childhood, although the design cannot disentangle whether BP elevation precedes or follows MaHu. Importance 5/Evidence 5/Novelty 7/Decision 5/Calibration 9. LIMITATIONS: retrospective; tertiary referral cohorts likely to over-represent more advanced pediatric disease; outcome data limited to a single time-point; small absolute number of MaHu+ children (n=21) means subgroup p-values are sensitive to a few cases. Hypothesis-generating with practical counselling value; below the dual alert threshold (importance \u22657 AND evidence \u22655)."
+        },
+        {
+          "date": "2026-08-02",
+          "note": "Incorporated pm_42401882 (BMC Nephrology, 2026-07-04): Bayesian model-averaged meta-analysis of 19 studies, 736 children (335 VEO, 401 non-VEO). VEO-ADPKD: hypertension OR 2.08 (95% CrI 1.00-2.70), proteinuria 1.58 (1.00-2.60), CKD 1.77 (1.00-2.66), kidney failure 1.99 (1.00-2.69); biallelic PKD1 38/158 vs 0/147; perinatal death 34/320 vs 0/401 (both descriptive due to complete separation). LIMITATIONS: every pooled credible interval has a lower bound of exactly 1.00 (null barely excluded), MEDLINE-only search, underlying studies are small retrospective case series prone to ascertainment bias. This is the first meta-analytic quantification of a phenotype gap that was previously only described narratively; it is confirmatory of clinical impression rather than a new discovery. Confidence unchanged (MODERATE) -- strengthens quantification without changing the qualitative picture."
+        }
+      ]
+    },
+    {
+      "id": "finding_015",
+      "dimension": "pharmacological",
+      "subtopic": "failed_trials",
+      "statement": "Venglustat (glucosylceramide synthase inhibitor) failed in a Phase 2/3 RCT (STAGED-PKD) for rapidly progressive ADPKD: it showed no effect on TKV growth rate (Stage 1) and was associated with a FASTER rate of eGFR decline (Stage 2). The trial was terminated early for futility.",
+      "confidence": "high",
+      "supporting_papers": [
+        "pm_36535535"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "high",
+      "last_updated": "2026-04-12",
+      "evolution": [
+        {
+          "date": "2026-04-12",
+          "note": "STAGED-PKD (Gansevoort et al., AJKD 2023): Double-blind RCT, n=236 (Stage 1) + 242 (Stage 2). Patients had rapidly progressive disease (Mayo 1C-1E, eGFR 30-89.9). Primary endpoints: TKV change over 18 months (Stage 1), eGFR slope over 24 months (Stage 2). Results: venglustat had no effect on TKV; in Stage 2, venglustat group showed FASTER eGFR decline. Terminated early for futility. This is an important cautionary result: preclinical efficacy of venglustat did not translate to human benefit and may have caused harm in the eGFR dimension. Glycosphingolipid pathway inhibition, despite preclinical promise, does not appear to be a viable therapeutic target in ADPKD with this drug class. Decision value: HIGH \u2014 definitively prunes this mechanistic pathway from the therapeutic space."
+        }
+      ]
+    },
+    {
+      "id": "finding_016",
+      "dimension": "management",
+      "subtopic": "hypertension",
+      "statement": "Ultrasound-based renal denervation (RDN) is being explored for hypertension management in ADPKD, with the RDN-ADPKD trial reporting preliminary efficacy and safety data. Evidence is early-stage and requires confirmation in controlled trials.",
+      "confidence": "low",
+      "supporting_papers": [
+        "ss_50598a97b6137a85aa08bc9b166ea5f8fc12a70d",
+        "ss_50f98c9550"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "low",
+      "last_updated": "2026-06-07",
+      "evolution": [
+        {
+          "date": "2026-06-07",
+          "note": "W23 cycle (June 1\u20137, 2026) \u2014 ESH 2026 abstract watchlisted (ss_50f98c9550). Title: 'First Results from the Randomized RDN-ADPKD Study' (European Society of Hypertension congress, June 2026). If accurately titled, this would represent a significant design upgrade from the prior TCT 2025 data (ss_50598a97b6): the TCT 2025 presentation was single-arm pre-post; a randomized arm would enable proper confounding control and is the minimally acceptable design for assessing RDN BP effects in ADPKD. HOWEVER: the abstract is title-only \u2014 no sample size, randomization method, outcomes, BP change data, or blinding information are available from the indexed record. Cannot yet update confidence level or clinical relevance. Action: watchlist for full abstract or publication. If randomized controlled data are disclosed showing clinically meaningful BP reduction in ADPKD with safety, this finding should be upgraded to confidence: low\u2192moderate and clinical_relevance: low\u2192moderate."
+        },
+        {
+          "date": "2026-04-12",
+          "note": "RDN-ADPKD results presented at TCT 2025 (October 2025, now indexed in JACC). Single-arm, pre-post design, small n, commercial sponsor, surrogate endpoint (BP). This is hypothesis-generating only. ADPKD hypertension has multiple drivers (RAAS activation, vasopressin, reduced renal blood flow) and RDN has shown modest effects in essential hypertension \u2014 its efficacy specifically in ADPKD is unproven. Notable: data is from October 2025 and being re-indexed April 2026 \u2014 not a genuinely new scientific event."
+        }
+      ]
+    },
+    {
+      "id": "finding_017",
+      "dimension": "dietary",
+      "subtopic": "commercial_products",
+      "statement": "Commercial ketogenic medical food programs for ADPKD (e.g., Ren-Nu) have published real-world data claiming 6.3% eGFR improvement, but these studies have critical methodological limitations including commercial sponsorship, no control arm, and short follow-up. These claims should not be taken at face value.",
+      "confidence": "low",
+      "supporting_papers": [],
+      "contradicting_papers": [
+        "pm_41648752"
+      ],
+      "clinical_relevance": "low",
+      "last_updated": "2026-04-12",
+      "evolution": [
+        {
+          "date": "2026-04-12",
+          "note": "Ren-Nu + VLCKD real-world study (Frontiers in Nutrition, Jan 2026, pm_41648752): Commercially sponsored (Ren-Nu manufacturer), no control arm, prospective real-world design. Claims 6.3% eGFR increase \u2014 extraordinary claim for ADPKD where eGFR typically declines. Possible explanations for apparent eGFR increase: (1) hemodynamic effects of dietary change, (2) stopping medications with renal effects, (3) regression to mean, (4) selection bias. Without a control arm, no causal inference is possible. Patients should be aware this study was funded by the manufacturer of the product being tested. The ketogenic diet rationale is biologically plausible but this specific study does not provide valid evidence of ADPKD-specific benefit."
+        }
+      ]
+    },
+    {
+      "id": "finding_018",
+      "dimension": "genetics",
+      "subtopic": "progression_biomarkers",
+      "statement": "Baseline renal blood flow (RBF), measured by phase-contrast MRI, independently predicts progression to kidney failure in early-stage ADPKD over 13+ years. Patients in the lowest RBF tertile had a hazard ratio of 3.19 (95% CI 1.05-9.67) for kidney failure versus the highest tertile, independent of eGFR and TKV. A separate cross-sectional analysis (n=134) further shows that higher BMI category is associated with lower RBF.",
+      "confidence": "moderate",
+      "supporting_papers": [
+        "pm_41811969",
+        "ss_9882b2ac3617f166fbb158bda8905da7d86678c6"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-04-19",
+      "evolution": [
+        {
+          "date": "2026-04-12",
+          "note": "New finding added from Nowak et al. (NDT 2026-03, pm_41811969). Secondary analysis of HALT PKD Study A. n=379 early-stage ADPKD, median 13.1-year follow-up linked to USRDS. Lowest RBF tertile: 1.90 events/100 person-years for kidney failure vs 0.34 in highest tertile. Fully adjusted HR 3.19 (1.05-9.67). Higher RBF independently associated with slower eGFR decline and lower odds of rapid TKV growth. Study design is prospective cohort with meaningful outcome (kidney failure) and very long follow-up. Limitations: RBF measurement (phase-contrast MRI) is not routinely available in clinical practice; this was a secondary analysis of a trial; the CI is wide (includes 1.05-9.67), reflecting uncertainty. Clinical implication: RBF may become a useful prognostic tool if measurement becomes more accessible, but currently not practice-changing. Research value: supports examining RBF-reducing mechanisms as therapeutic targets (RAAS, sympathetic activation, tubular pressure effects of cyst compression)."
+        },
+        {
+          "date": "2026-04-19",
+          "note": "Birznieks et al. (Kidney Blood Press Res Mar 2026, ss_9882b2ac) add cross-sectional evidence from n=134 non-diabetic ADPKD adults in the pravastatin RCT cohort: BSA-adjusted RBF is stepwise lower across normal/overweight/obese BMI categories; after multivariable adjustment including eGFR and htTKV, overweight (beta -78.4) and obesity (beta -190.6) remained independently associated with lower RBF; each 1-unit BMI increase associated with 10.4 mL/min/1.73m2 lower RBF. Authors explicitly note associations only \u2014 no causal inference. This complements prior work by the same group linking overweight/obesity to faster ADPKD progression and suggests RBF as a plausible mediator, but cannot establish that weight change would alter RBF or outcomes. Cross-sectional design; limited to preserved-eGFR patients enrolled in a specific RCT."
+        }
+      ]
+    },
+    {
+      "id": "finding_019",
+      "dimension": "pharmacological",
+      "subtopic": "somatostatin",
+      "statement": "Somatostatin analogues do not demonstrate a patient-important kidney-function benefit in ADPKD, despite reducing cyst-volume surrogates. Octreotide LAR shows no significant effect on eGFR or total kidney volume (fixed-effects meta-analysis of 6 RCTs; borderline p=0.058 signal for cystic kidney volume only). The LIPS trial (NCT02127437), a 3-year randomized, double-blind, placebo-controlled RCT of monthly lanreotide in 144 adults with stage 2/3 ADPKD, is now fully published and is negative on its primary endpoint: no difference in measured (iohexol-clearance) GFR slope (annualized between-arm difference -0.3 mL/min/1.73m2/yr, 95% CI -3.4 to 2.8). A positive creatinine-based eGFR signal (+1.2, 95% CI 0.27-2.15) was NOT reproduced by cystatin C-eGFR or urinary creatinine clearance, and the trial surfaced a new hypoglycemia signal (11.1% lanreotide vs 1.4% placebo). A network meta-analysis of octreotide/lanreotide/pasireotide trials plus FAERS pharmacovigilance data confirms this general pattern: all three agents reduce TKV/TLV surrogates on differing time courses, but kidney-function benefit remains unproven, and cholelithiasis is the dominant biliary toxicity across the class. Taken together, two independent RCTs of two different somatostatin analogues are now negative on kidney-function endpoints. This further prunes somatostatin analogues from the disease-modifying therapeutic space for typical ADPKD kidney disease, though the class retains a role in symptomatic polycystic liver disease -- where a separate CAM2029 (octreotide depot) Phase 2/3 PLD trial (NCT05281328) posted a marginal positive liver-volume result (p=0.0443, driven mostly by placebo-arm liver growth rather than treatment shrinkage, with one death as an SAE in the treatment arm) that should not be read across to kidney outcomes.",
+      "confidence": "high",
+      "supporting_papers": [
+        "pm_41647114",
+        "pm_42320793",
+        "pm_42476150"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-08-02",
+      "evolution": [
+        {
+          "date": "2026-04-19",
+          "note": "New finding from Jin et al. (Frontiers in Endocrinology, Jan 2026, pm_41647114). Meta-analysis of 6 RCTs of octreotide LAR in ADPKD. Fixed-effects SMD for GFR: -0.020 (95% CI -0.250 to 0.210, p=0.864). Random-effects SMD for total kidney volume: -0.001 (95% CI -0.376 to 0.374, p=0.996). Fixed-effects cystic kidney volume: RR 1.127 (0.996-1.276, p=0.058) \u2014 borderline but not statistically significant. No increase in adverse events. This builds on existing RCT-level evidence (LIPS, ALADIN, DIPAK-1) and synthesizes it consistently. LIMITATIONS: meta-analysis of trials with heterogeneous designs, doses, durations, and ADPKD stages; subgroup analysis by trial could not be extracted from the abstract; publication bias not formally assessed in available metadata. CONCLUSION: the accumulated RCT evidence no longer supports octreotide LAR as an ADPKD kidney disease-modifying therapy. This is a NEGATIVE finding with HIGH decision value \u2014 it prunes somatostatin analogues from the disease-modifying therapeutic space for typical ADPKD. The drug class retains a legitimate role in symptomatic polycystic liver disease management (distinct from kidney disease modification)."
+        },
+        {
+          "date": "2026-08-02",
+          "note": "Deep analysis cycle (covering scan windows 2026-06-18 through 2026-07-30, delayed digest). Incorporated the LIPS trial primary publication (pm_42320793, Kidney International, negative on measured-GFR primary endpoint, new hypoglycemia signal) and a network meta-analysis/FAERS analysis of octreotide-lanreotide-pasireotide (pm_42476150). ASSESSMENT: this is the strongest single update to the somatostatin-analogue picture since the octreotide LAR meta-analysis. LIPS is a well-designed, if underpowered (144 of 180 planned), RCT using measured GFR (a stronger endpoint than eGFR) and its negative result independently corroborates the octreotide LAR conclusion in a different drug within the class. The discordance between the creatinine-eGFR signal and cystatin C/urinary creatinine clearance in LIPS is itself notable and cross-references finding_028 (endpoint validity). Confidence remains HIGH and is now better supported by two independent negative kidney-function RCTs across two different somatostatin analogues, not one. Decision usefulness: HIGH -- this is a negative-result pruning update, not an exciting one, and should be read that way. Distinguish carefully from the CAM2029 PLD (liver, not kidney) trial noted above, which is a different endpoint and a marginal result."
+        }
+      ]
+    },
+    {
+      "id": "finding_020",
+      "dimension": "management",
+      "subtopic": "patient_reported_outcomes",
+      "statement": "Total kidney volume (TKV) is independently associated with patient-reported physical health (SF-36 PCS) in ADPKD, even after adjusting for eGFR and chronic kidney pain (Fadlallah et al., Kidney Int Reports 2026, n=456). Mental health (MCS) is associated with TKV indirectly through kidney pain. This provides prospective cohort evidence that structural kidney burden matters for how patients feel day to day, not only via complications or kidney function.",
+      "confidence": "moderate",
+      "supporting_papers": [
+        "pm_41767623"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-04-19",
+      "evolution": [
+        {
+          "date": "2026-04-19",
+          "note": "New finding from Fadlallah et al. (Kidney Int Reports Jan 2026, pm_41767623). Prospective recruitment 2017-2023, n=456 ADPKD adults (mean age 47, 47% male, median TKV 922 mL). Multivariable regression with SF-36 physical (PCS) and mental (MCS) component scores. PCS values were 53, 51, 51 across increasing TKV tertiles (p=0.02 after adjustment for eGFR and pain). MCS similar across tertiles. Lower eGFR and kidney pain independently associated with worse HRQOL. Mediation analysis showed indirect association between TKV and MCS via kidney pain. Four phenotypic clusters identified based on TKV/eGFR/pain. LIMITATIONS: cross-sectional analyses within a longitudinal cohort do not establish causal direction; SF-36 is a generic HRQoL instrument, not ADPKD-specific; kidney pain is partly subjective and may be influenced by expectation effects; single-cohort findings need external replication. CLINICAL IMPLICATION: this supports discussion of TKV with patients as a meaningful variable for physical well-being, not only as a surrogate endpoint. It also supports pain as a legitimate, mediation-relevant target in ADPKD care."
+        }
+      ]
+    },
+    {
+      "id": "finding_021",
+      "dimension": "genetics",
+      "subtopic": "risk_prediction",
+      "statement": "Ravichandran et al. (JASN May 2026) developed and externally validated a multivariable Cox prediction model for kidney failure (eGFR <15, dialysis, or transplant) in early-stage ADPKD, combining age, sex, eGFR, ADPKD genotype, and Mayo Imaging Class (n=759 CRISP+HALT-A development cohort, median 10.2-year follow-up; external validation in the Mayo registry, ages 15-49 with eGFR \u226560). The model is the largest externally-validated effort to date for the patient-important endpoint of kidney failure in early ADPKD.",
+      "confidence": "moderate",
+      "supporting_papers": [
+        "pm_41563252",
+        "pm_41915441",
+        "ss_0f028a9daccf6b55ccf45883ee8dd3e1d679379f",
+        "pm_42545852",
+        "ppr_1292886"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "high",
+      "last_updated": "2026-08-09",
+      "evolution": [
+        {
+          "date": "2026-05-03",
+          "note": "New finding (alert generated 2026-05-02). Ravichandran et al. published in JASN May 2026 (pm_41563252) a multivariable Cox model for kidney failure in early ADPKD. Development cohort: CRISP + HALT-A (n=759, baseline eGFR 91 mL/min/1.73m\u00b2, median 10.2y FU). Outcome: eGFR <15, dialysis, or transplant. Predictors: age, sex, eGFR, ADPKD genotype, Mayo Imaging Class. External validation: Mayo ADPKD clinical registry (ages 15-49, eGFR \u226560). Reported good discrimination and calibration over a 15-year horizon. Companion JASN editorial (pm_41915441) reads it as an incremental advance over Mayo Imaging Class alone. Complementary to (a) ss_0f028a9d (KI Reports Mar 2026 \u2014 TKV+KFRE in eGFR<60 retrospective cohort) which addresses risk in advanced disease, and (b) Yu et al. CJASN TKV-eGFR translation framework (pm_41686506) which addresses regulatory rather than individual-patient prediction. Importance 8/Evidence 6/Novelty 8/Decision 7/Calibration 8. LIMITATIONS: observational design with no intervention arm; external validation cohort restricted to ages 15-49 with preserved eGFR (\u226560), so generalizability to older patients, advanced disease, and non-Caucasian populations remains to be demonstrated; downstream calibration drift in non-research settings has not been tested; potential industry conflicts among ADPKD trial-affiliated co-authors typical for the area. CONFIDENCE: moderate (single primary cohort with one external validation). DECISION VALUE: could refine tolvaptan eligibility, trial enrichment, and patient counselling beyond Mayo Imaging Class alone \u2014 particularly in early-stage ADPKD where risk stratification is currently weakest. Practice change should await independent reproducibility in non-CRISP cohorts and operational integration with electronic health records."
+        },
+        {
+          "date": "2026-08-09",
+          "note": "Two complementary items this cycle, neither changing confidence. (1) pm_42545852 (Min/Murthy et al., Kidney360, epub 2026-08-03) is a narrative review contrasting imaging-based (Mayo Imaging Classification, TKV) vs genetic (PROPKD) prognostic tools, noting each loses resolution in advanced disease or fails to capture intrafamilial variability, and arguing for future multimodal frameworks integrating AI-derived imaging, polygenic scores, and molecular biomarkers -- a useful map of the landscape but introduces no new validated tool. (2) ppr_1292886 (Gan et al., Research Square preprint, posted 2026-08-06) is the first external validation of the Mayo Clinic ADPKD prognostic tool (HtTKV+age) outside its original derivation cohorts, in 50 Malaysian ADPKD patients: model-predicted eGFR correlated strongly with actual eGFR over 24 months (cc 0.748-0.815, p<0.001), with Bland-Altman P30 agreement >90%. This extends generalizability evidence for the Mayo tool to a Southeast Asian population, but remains preliminary: preprint, not peer-reviewed, single small cohort (n=50), and validates a model-predicted surrogate (eGFR) rather than an independent patient-important outcome. Confidence remains MODERATE."
+        }
+      ]
+    },
+    {
+      "id": "finding_022",
+      "dimension": "genetics",
+      "subtopic": "diagnostic_yield",
+      "statement": "Optimized exome sequencing (with appropriate handling of PKD1 pseudogene alignment and read-depth filtering) detects 95.5% of PKD1 pathogenic variants and 100% of PKD2 variants in well-phenotyped ADPKD; combined ES+GS solves 96% of cases. Standard pipelines miss \u226522 PKD1 variants due to GATK HardFiltering and pseudogene alignment artefacts. PacBio HiFi long-read sequencing is being explored to recover hidden structural variants in cases that remain unsolved after short-read NGS. Genetic testing also continues to surface clinically meaningful misclassifications (e.g., apparent ADPKD reclassified as Alport syndrome), reinforcing KDIGO 2025 guidance to use genetic testing in ambiguous or atypical presentations.",
+      "confidence": "high",
+      "supporting_papers": [
+        "pm_41653026",
+        "ss_44af34eb54ac7a4aef6b08370035c9c6063eb9a4",
+        "ss_41b35b7130e56c0bfc926ba5a4d4df1f92de1820"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-05-10",
+      "evolution": [
+        {
+          "date": "2026-05-03",
+          "note": "New finding from Optimizing NGS for ADPKD diagnosis (Genetics in Medicine Feb 2026, pm_41653026; surfaced 2026-05-02). Methodologic study on 203 CRISP patients optimizing ES pipelines for PKD1 (which has six homologous pseudogenes obstructing standard short-read alignment). Higher-depth ES achieves 100% PKD1 detection. ES+GS solves 96% of well-phenotyped ADPKD; GS identified a balanced t(1;16)(q31.1;p13.3) translocation otherwise undetectable. CLINICAL/OPERATIONAL IMPLICATION: practical playbook for diagnostic labs replacing Sanger long-range PCR with NGS for ADPKD. Quantifies the impact of pseudogene-handling and depth choices on diagnostic yield. Decision-relevant for laboratory directors and ordering clinicians \u2014 should improve test sensitivity once optimized pipelines are widely adopted. LIMITATIONS: Single-cohort validation (CRISP); generalizability to less-phenotyped clinical populations and to broader ancestral diversity needs further data."
+        },
+        {
+          "date": "2026-05-10",
+          "note": "Two NKF SCM 2026 abstracts incorporated; neither shifts confidence but both extend the diagnostic-yield narrative. (1) Tyagi/Somlo/Besse Yale group P615 (AJKD May supplement, ss_44af34eb54): PacBio HiFi long-read sequencing applied to ADPKD patients with previously unsolved diagnoses, reporting recovery of hidden structural variants in PKD1/PKD2. Abstract-only, no methods or yield in indexed metadata. Importance 4/Evidence 2/Novelty 7/Decision 3/Calibration 8 \u2014 hypothesis-generating; consistent with the rationale for adding ES+GS or long-read sequencing in cases unresolved by optimized short-read NGS. (2) G-531 case abstract (AJKD May supplement, ss_41b35b7130): a patient with a clinical PKD diagnosis and family history of PKD was reclassified as Alport syndrome after genetic testing. Single case, importance 2/evidence 1, but reinforces KDIGO 2025 guidance to use genetic testing in ambiguous or atypical phenotypes and aligns with the Caliskan kidney-transplant-candidate cohort showing 38.5% diagnostic yield with standardized genetic testing (pm_42017070). NOT included: ss_55c183d4d385d50097342db217f507a8cfa4da57 (G-524 'Synergistic Pathogenicity in Adult PKD: An Index Case') \u2014 single case cannot establish synergistic pathogenicity; flagged for skepticism, not used to update finding."
+        }
+      ]
+    },
+    {
+      "id": "finding_023",
+      "dimension": "genetics",
+      "subtopic": "progression_biomarkers",
+      "statement": "Higher serum osmolality is associated with faster eGFR decline in tolvaptan-naive ADPKD patients (HR ~5.9 between top vs bottom quartile, AUC 0.81 for predicting 40% eGFR decline; n=311 prospective Hong Kong cohort). Urine osmolality was not predictive in this cohort. This is hypothesis-generating; it does NOT establish that lowering serum osmolality (e.g., via increased water intake) modifies disease progression.",
+      "confidence": "low",
+      "supporting_papers": [
+        "pm_41678280"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-05-03",
+      "evolution": [
+        {
+          "date": "2026-05-03",
+          "note": "New finding from Fung et al. (Kidney360 Feb 2026, pm_41678280; CysticHK cohort, n=311 tolvaptan-naive). Prospective serial measurements over 5 years. Higher serum osmolality predicted faster eGFR decline (HR ~5.9 between top vs bottom quartile); serum osmolality AUC 0.81 for 40% eGFR decline; urine osmolality not predictive. Importance 5/Evidence 5/Novelty 6/Decision 4/Calibration 8. LIMITATIONS: single-centre Hong Kong cohort; observational \u2014 cannot infer that interventions lowering serum osmolality (increased water intake, vasopressin antagonism) translate into outcome benefit; the Wang et al. PREVENT-ADPKD water-intake RCT (NCT02227345) was historically negative on TKV. Mechanistic plausibility (osmolality drives vasopressin which drives cAMP-mediated cyst growth) supports continued prospective evaluation, but this finding should not be used to recommend forced fluid intake outside trial settings. Complementary to existing finding_009 (water intake). RELATIONSHIP TO TOLVAPTAN: finding is in tolvaptan-naive patients, so does not directly inform on-treatment monitoring."
+        }
+      ]
+    },
+    {
+      "id": "finding_024",
+      "dimension": "management",
+      "subtopic": "pregnancy",
+      "statement": "Pregnancy was not associated with ADPKD progression in a secondary analysis of HALT-PKD (Lapierre-Nguyen et al., JASN May 2026). Among 455 women in HALT-PKD A+B, having 1-2 or 3+ prior pregnancies was not significantly associated with eGFR slope, percentage TKV change, or a composite kidney failure outcome. In-study pregnancy (n=13, propensity-matched 1:4) also showed a null result (eGFR slope Beta: -0.14, 95% CI -2.72 to 2.44). This is a NEGATIVE/NULL result with HIGH counseling relevance \u2014 but note that the in-study pregnancy arm is very small (n=13), with wide confidence intervals that cannot rule out a clinically meaningful effect.",
+      "confidence": "moderate",
+      "supporting_papers": [
+        "pm_42149684"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "high",
+      "last_updated": "2026-05-24",
+      "evolution": [
+        {
+          "date": "2026-05-24",
+          "note": "New finding from Lapierre-Nguyen et al. (JASN May 2026, pm_42149684; ALERT generated 2026-05-19). Secondary analysis of HALT-PKD Study A and B data. Development cohort: n=455 women with early ADPKD (HALT-A: eGFR 60-89, HALT-B: eGFR 25-60). Prior pregnancies (1-2 or 3+) were not significantly associated with eGFR slope (multivariable-adjusted), dTKV/year, or a composite kidney failure outcome. In-study pregnancy subgroup: n=13 propensity-matched 1:4 to non-pregnant women; eGFR slope Beta -0.14 (95% CI -2.72 to 2.44) \u2014 null result. Importance 8/Evidence 5/Novelty 8/Decision 8/Calibration 7. CLASSIFICATION: practice-relevant (counseling). WHY THIS MATTERS: Pregnancy in ADPKD has historically generated concern about accelerating progression, based on case series and small observational studies suggesting higher proteinuria and blood pressure during pregnancy. This HALT-PKD secondary analysis is the largest and most rigorous dataset to date addressing this question with longitudinal outcomes data. A null result with this dataset is reassuring. CRITICAL LIMITATIONS: (1) The in-study pregnancy arm n=13 is very small \u2014 the 95% CI (-2.72 to 2.44 mL/min/1.73m\u00b2/yr) is wide and does not exclude a clinically meaningful negative effect; this is statistically inconclusive for the in-study pregnancy analysis. (2) HALT-PKD enrolled patients with relatively preserved eGFR (most >60 in Study A); the reassurance may not extend to patients with more advanced CKD. (3) HALT-PKD participants were mostly Caucasian, non-diabetic, and enrolled at US academic centers \u2014 generalizability to more diverse populations is uncertain. (4) The analysis addresses kidney progression specifically; it does not address obstetric outcomes (preeclampsia, gestational hypertension, preterm birth) or other pregnancy complications in ADPKD patients, which remain relevant to counseling. (5) This is a secondary analysis of a trial not designed for this purpose. CONFIDENCE: moderate \u2014 the prior-pregnancy multivariable analysis is reasonably well-powered and reassuring; the in-study pregnancy analysis is underpowered. DECISION VALUE: high for counseling purposes, with the explicit caveat above."
+        }
+      ]
+    },
+    {
+      "id": "finding_026",
+      "dimension": "pharmacological",
+      "subtopic": "failed_trials",
+      "statement": "GLPG2737 (a CFTR inhibitor, 150 mg/day) showed no significant effect on htTKV growth rate (GLPG2737 +8.2% vs placebo +9.2%, difference \u22120.91%, p=0.61) or eGFR slope (difference \u22122.31 mL/min/1.73 m\u00b2, p=0.17) in a Phase 2a RCT (MANGROVE, NCT04578548, n=66, 52 weeks). The trial was terminated early for lack of efficacy. This definitively prunes CFTR channel inhibition with GLPG2737 from the near-term ADPKD pipeline and materially weakens the broader CFTR-mediated chloride secretion hypothesis as a standalone disease-modifying approach in typical adult ADPKD.",
+      "confidence": "high",
+      "supporting_papers": [
+        "pm_42201338"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-05-31",
+      "evolution": [
+        {
+          "date": "2026-05-31",
+          "note": "New finding from MANGROVE Phase 2a RCT (Gansevoort et al., NDT May 2026, pm_42201338; ALERT generated 2026-05-28). Phase 2a randomized double-blind placebo-controlled trial, 2:1 allocation. GLPG2737 150 mg/day vs placebo, n=66, 52 weeks. Primary: htTKV growth rate \u2014 GLPG2737 +8.2% vs placebo +9.2%, difference \u22120.91%, p=0.61 (not significant). Secondary: eGFR change difference \u22122.31 mL/min/1.73 m\u00b2, p=0.17 (not significant). Well tolerated. Trial and companion OLE terminated early for lack of efficacy. Companion preclinical paper (Ganapathy et al., Am J Nephrol Apr 2025, pm_40300563) showed GLPG2737 prevents cyst growth in multiple mouse models and human ADPKD kidney cells \u2014 the clinical failure is consistent with ADPKD's poor preclinical-to-clinical translation record. LIMITATIONS: n=66 Phase 2a, powered for surrogate endpoint not patient-important outcomes; single dose tested; does not exclude different doses, other CFTR modulators, or combination regimens with tolvaptan; CFTR non-channel scaffold/HIPPO-pathway interactions (pm_42140432, Sharma et al.) represent a distinct mechanistic angle not tested by GLPG2737. NOTE: trial completed April 2023, full publication occurred May 2026 (~3-year lag \u2014 a pattern consistent with delayed publication of negative trials). DECISION VALUE: HIGH \u2014 adds CFTR inhibition to the list of mechanistically plausible but clinically failed approaches in ADPKD (alongside pravastatin, venglustat, somatostatin analogues for kidney disease). Industry-funded study (Galapagos) but a clean well-calibrated negative with no commercial incentive to inflate."
+        }
+      ]
+    },
+    {
+      "id": "finding_025",
+      "dimension": "management",
+      "subtopic": "renal_replacement_therapy",
+      "statement": "ADPKD patients on kidney replacement therapy (KRT) have independently lower dialysis mortality compared to other causes of kidney failure (aHR 0.71, 95% CI 0.67-0.75; ANZDATA registry, n=63,875), with similar post-transplant survival (aHR 0.96) and slightly better kidney allograft survival (aHR 0.87). This likely reflects ADPKD patients' younger age at KRT initiation and lower comorbidity burden rather than a disease-specific protective effect. Causes of death on KRT are similar including cardiovascular disease (~27.5%).",
+      "confidence": "high",
+      "supporting_papers": [
+        "pm_41023960"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-05-24",
+      "evolution": [
+        {
+          "date": "2026-05-24",
+          "note": "New finding from Jefferis et al. (BMC Nephrology Sep 2025, pm_41023960; surfaced in scan_2026-05-23, is_new_this_week=false). ANZDATA Registry retrospective cohort: n=63,875 patients commencing KRT in Australia between 1963-2020, including n=2,466 ADPKD. ADPKD vs non-ADPKD KRT: all-cause mortality on dialysis aHR 0.71 (95% CI 0.67-0.75); post-transplant mortality aHR 0.96 (not significantly different); kidney allograft survival aHR 0.87 (slightly better in ADPKD). Cardiovascular death rates similar (27.5% ADPKD vs 27.6% non-ADPKD). Importance 5/Evidence 5/Novelty 5/Decision 4/Calibration 8. CLASSIFICATION: background/context. INTERPRETATION: ADPKD patients reaching KRT tend to be younger and have fewer diabetes and cardiovascular comorbidities than KRT patients with other etiologies \u2014 the lower dialysis mortality likely reflects this case-mix advantage rather than any ADPKD-specific protective mechanism. The similar cardiovascular death proportion (despite lower overall mortality) suggests cardiovascular risk is not reduced in ADPKD, consistent with ADPKD's known cardiovascular complications (hypertension, LVH, intracranial aneurysms, aortic dilation). LIMITATIONS: retrospective registry data; ANZDATA covers Australia/New Zealand only; long enrollment period (1963-2020) spans major changes in KRT practice; case-mix confounding is the dominant limitation; no adjustment for disease severity at KRT initiation. CLINICAL RELEVANCE: supports counseling patients that ADPKD outcomes after reaching KRT are generally favorable relative to other KRT populations. This does not diminish the severity of ADPKD or the importance of delaying KRT initiation."
+        }
+      ]
+    },
+    {
+      "id": "finding_027",
+      "dimension": "management",
+      "subtopic": "nephrolithiasis_progression_risk",
+      "statement": "CT-confirmed nephrolithiasis (kidney stones), distinguished from cyst-wall calcification, is independently associated with a higher risk of initiating renal replacement therapy in ADPKD. In the prospective Korean HOPE-PKD cohort (n=410, median follow-up 5.18 years), imaging-confirmed nephrolithiasis carried an adjusted HR of 2.84 (95% CI 1.26-6.38) for RRT initiation and 1.83 (1.03-3.27) for a composite progression outcome. This supports considering CT-detected kidney stones as an additional prognostic marker alongside Mayo imaging class and genotype, but does not establish that treating stones alters kidney outcomes, and the association may reflect stones as a marker of more severe underlying disease rather than a causal driver of progression.",
+      "confidence": "low",
+      "supporting_papers": [
+        "pm_42428517"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-08-02",
+      "evolution": [
+        {
+          "date": "2026-08-02",
+          "note": "New finding from pm_42428517 (Clinical Kidney Journal, 2026-06-11), the first prospective, imaging-confirmed assessment of nephrolithiasis as an ADPKD progression risk factor with a patient-important endpoint (prior evidence was retrospective). LIMITATIONS: observational (cannot establish causation), only 51 RRT events drove a wide confidence interval, the composite secondary endpoint's lower bound (1.03) barely excluded the null, single baseline CT exposure assessment, single-country cohort, and one author reports a Korea Otsuka Pharmaceutical (tolvaptan manufacturer) research grant unrelated to the analyzed exposure. Confidence set to LOW pending replication in an independent cohort; clinical relevance rated MODERATE because kidney stones are common and potentially modifiable, even though causal benefit of stone treatment on kidney survival is unproven."
+        }
+      ]
+    },
+    {
+      "id": "finding_028",
+      "dimension": "genetics",
+      "subtopic": "endpoint_validity",
+      "statement": "A cross-cutting methodological question emerged this cycle about whether creatinine-based eGFR is a reliable primary endpoint for ADPKD drug trials. Three independent threads converge: (1) a perspective preprint hypothesizes that tolvaptan-related changes in creatinine generation may have inflated the apparent creatinine-eGFR benefit in TEMPO 3:4, while informative censoring from selective discontinuation may have simultaneously attenuated it, and proposes an (as-yet-unperformed) cystatin C reanalysis; (2) the LIPS lanreotide RCT found a significant creatinine-based eGFR treatment signal that was NOT reproduced by cystatin C-eGFR or urinary creatinine clearance in the same trial; (3) separate retrospective comparisons show that eGFR equation choice (creatinine vs. cystatin C vs. combined; 2009 vs. 2021 race-free CKD-EPI) meaningfully shifts calculated eGFR and CKD staging in ADPKD cohorts, with the combined creatinine-cystatin C equation best approximating measured GFR. None of these individually change practice, but together they raise a testable, currently unresolved question about whether some historical ADPKD trial results relying on creatinine-eGFR could be biased, and argue for cystatin C or measured-GFR co-reporting in future ADPKD trials.",
+      "confidence": "low",
+      "supporting_papers": [
+        "ppr_1279948",
+        "pm_42519961",
+        "pm_42499441"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-08-02",
+      "evolution": [
+        {
+          "date": "2026-08-02",
+          "note": "New cross-dimensional finding created this cycle to track a thematically convergent but individually inconclusive set of items: ppr_1279948 (hypothesis-only, no new data, not peer-reviewed), pm_42519961 (single-center retrospective, mGFR-validated subset n=50), and pm_42499441 (retrospective recalculation exercise, no outcome data). None constitutes strong evidence alone; the value is in the convergence, and in cross-referencing the LIPS RCT's internal creatinine/cystatin C discordance (see finding_019). Confidence LOW and clinical relevance MODERATE -- this should raise research priority (a formal TEMPO 3:4 cystatin C reanalysis would be genuinely informative) without changing today's clinical practice, which still correctly relies on creatinine-eGFR as the practical standard. Watchlist item: whether any group performs the proposed TEMPO 3:4 reanalysis."
+        }
+      ]
+    },
+    {
+      "id": "finding_029",
+      "dimension": "management",
+      "subtopic": "dialysis_modality",
+      "statement": "In a large US national registry analysis, peritoneal dialysis (PD) was associated with lower mortality and higher likelihood of subsequent kidney transplantation compared to hemodialysis (HD) among ADPKD patients reaching end-stage kidney disease. This is retrospective, non-randomized, observational evidence subject to substantial confounding by indication -- PD-selected patients were younger, more often female, and had lower comorbid disease burden -- and should inform, not settle, dialysis-modality counseling for ADPKD patients who are reasonable PD candidates.",
+      "confidence": "low",
+      "supporting_papers": [
+        "pm_42536420"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-08-09",
+      "evolution": [
+        {
+          "date": "2026-08-09",
+          "note": "New finding from Gunning, McGill, Chapman, Garimella (Clin J Am Soc Nephrol, epub 2026-07-31, pm_42536420). Retrospective USRDS cohort of ESKD patients aged >=30 with a cystic-kidney-disease diagnosis, 2000-2021, followed to death or 2023-01-01 (n=53,651 incident ADPKD ESKD patients). Time-dependent modality exposure; Cox models adjusted for age, sex, race, BMI, albumin, hemoglobin, year of incident ESKD, insurance status, comorbidities. 26% of patients received some PD. Over median 75-month follow-up: PD associated with lower mortality (adjusted HR 0.84, 95% CI 0.80-0.88, p<0.001) and higher transplantation likelihood (adjusted HR 1.12, 95% CI 1.08-1.16, p<0.001) vs. HD; both associations strengthened with each additional year. Importance 6/Evidence 5/Novelty 7/Decision 5/Calibration 7 (scan-level scores; deep-analysis assessment concurs). CLASSIFICATION: practice-relevant. WHY IT MATTERS: directly addresses a real counseling question -- ADPKD patients are often considered good PD candidates (young, few comorbidities) but clinicians may be hesitant given concerns about mechanical complications from cyst burden; this is the largest ADPKD-specific PD-vs-HD outcomes dataset to date and the associations run counter to that hesitancy. LIMITATIONS (why confidence is LOW despite large n and patient-important endpoints): retrospective registry design with covariate-adjusted but not randomized modality assignment; confounding by indication is the central threat -- patients selected for PD were systematically younger, more often female, and had lower comorbid burden, and Cox adjustment for measured covariates cannot rule out unmeasured selection on abdominal cyst burden, prior abdominal surgery, or physical/cognitive capacity for self-care dialysis, all of which plausibly drive both PD candidacy and survival independent of any causal PD benefit. The paper's own conclusion language ('PD is a safe and advantageous dialysis option... associated with longer patient survival') states the association more causally than the retrospective design supports. CALIBRATED TAKEAWAY: this is reassuring, hypothesis-supporting observational evidence that ADPKD patients selected for PD do at least as well as those on HD -- it does not establish that switching a given HD-eligible patient to PD would causally improve their survival."
+        }
+      ]
+    },
+    {
+      "id": "finding_030",
+      "dimension": "management",
+      "subtopic": "cyst_decompression",
+      "statement": "Sodium tetradecyl sulfate sclerotherapy of large, symptomatic renal cysts produces sustained, large-magnitude volume reduction in treated cysts and modest total-kidney-volume reduction in ADPKD, based on the largest retrospective single-arm case series reported to date. This is a symptomatic mass-effect management procedure, not a disease-modifying intervention; the same series recorded declining eGFR and rising creatinine over long-term follow-up, and the published conclusion's framing of 'reduced renal function decline' is not supported by a comparator arm or expected-trajectory benchmark in the available data and should not be repeated as evidence of a kidney-function benefit.",
+      "confidence": "low",
+      "supporting_papers": [
+        "pm_42530878"
+      ],
+      "contradicting_papers": [],
+      "clinical_relevance": "moderate",
+      "last_updated": "2026-08-09",
+      "evolution": [
+        {
+          "date": "2026-08-09",
+          "note": "New finding from Copping, Sabovich, Pei, Shlomovitz et al. (Kidney360, epub 2026-07-29, pm_42530878), University Health Network Toronto. Retrospective review of 567 cysts sclerosed with sodium tetradecyl sulfate in 306 ADPKD patients, Nov 2014-Aug 2022, plus a companion porcine bladder model probing mechanism. 495 cysts had adequate MRI follow-up: 99% showed volume reduction at first follow-up (mean 162 days, mean reduction 197cm3/88%+/-16%); at long-term follow-up (mean 1359 days) 80% showed further reduction, 18% stable. Mean TKV fell 371cm3 and height-adjusted TKV fell 224cm3 at final follow-up. HOWEVER, over the same mean 1460-day follow-up, serum creatinine INCREASED by 30.5+/-82.6 (units as reported) and eGFR DECREASED by 8.6+/-14.9 mL/min/1.73m2 -- i.e., kidney function declined in absolute terms during the study period. The published conclusion states sclerotherapy 'is associated with reduced renal function decline,' but the abstract as available provides no untreated comparator arm or expected-natural-history benchmark against which to judge whether the observed decline is 'reduced' relative to anything -- this is a headline-vs-evidence mismatch per the evaluation framework's skepticism triggers (single-arm, retrospective, baseline-only design) and is flagged in this cycle's Skepticism Notes rather than taken at face value. Porcine bladder model showed epithelial denudation and superficial inflammation without deep mural injury, supporting a plausible mechanism for the volume-reduction effect specifically (not the renal-function claim). Importance 5/Evidence 4/Novelty 7/Decision 4/Calibration 6 (scan-level scores) -- deep-analysis calibration would score nearer 4/10 given the identified claim/evidence mismatch on the renal-function conclusion specifically. CLASSIFICATION: practice-relevant for symptomatic mass-effect management only; NOT evidence of disease modification. LIMITATIONS: retrospective, single-center, single-arm, no comparator or untreated-cohort benchmark; addresses symptomatic large-cyst mass effect, not a general ADPKD disease-modifying claim. CONFIDENCE: low, pending any comparative study."
+        }
+      ]
+    }
+  ]
+}
