@@ -1,6 +1,6 @@
 # Genetics & Biomarkers in ADPKD
 
-> **Last updated:** August 9, 2026
+> **Last updated:** August 16, 2026
 > **Status:** Living document, updated by automated research scans.
 
 This document summarizes the current understanding of the genetic basis of ADPKD and the biomarkers used to track disease progression, predict risk, and guide treatment decisions. It is written to be accessible to a motivated patient while preserving the technical detail needed for informed decision-making.
@@ -93,6 +93,26 @@ This cycle added two more concrete examples of how PKD1 can be missed by standar
 ### Cell-Biology Mechanism Roundup (Added August 2026)
 
 Several preclinical papers this cycle add texture to *how* polycystin loss causes cysts, without changing anything actionable today. Briefly: (1) a large single-cell atlas across multiple mouse PKD models found the protein **osteopontin** consistently elevated, and removing it produced a modest improvement in cyst severity and kidney function in one mouse model; (2) deleting an enzyme called **OGT** substantially extended survival and reduced cyst formation in an aggressive mouse model -- a notably strong preclinical effect that, per this field's historically weak record of translating mouse results into human drugs, is worth watching rather than getting excited about yet; (3) two papers described specific molecular "switches" (a cilia protein called **ARL13B**, and a scaffolding protein called **Ezrin**) that appear to link the primary cilium to cyst growth through pathways separate from the classic polycystin-channel signaling story; (4) new lab tools -- a mouse strain that lets researchers directly visualize polycystin-2 protein in living tissue, and a systematic test of 29 different PKD1 disease-causing variants -- were published to help future researchers work faster. None of these are therapies; they are groundwork that may eventually inform which molecular pathway is worth targeting with a drug.
+
+### Polycystin-1 Outside the Kidney: A Possible Explanation for ADPKD's Heart and Blood-Vessel Risk (Added August 16, 2026)
+
+People with ADPKD have more cardiovascular problems than would be expected from their blood pressure and kidney function alone. A new study (Tardajos Ayllon et al., *Cardiovascular Research*, August 10, 2026) offers a candidate explanation. Working first in zebrafish, then in mice, then in human cells grown in the lab, the researchers found that polycystin-1 — the protein made by the **PKD1** gene — helps protect the cells lining blood vessels from dying. When they switched off *Pkd1* specifically in the blood-vessel lining of mice, atherosclerosis (fatty plaque build-up in arteries) got worse. In human aortic cells, knocking down PKD1 increased cell death and reduced **eNOS**, an enzyme that keeps blood vessels relaxed and healthy.
+
+The most interesting detail: this effect was seen with **PKD1 loss but not PKD2 loss**. If that holds up in people, it would predict that patients with PKD1 mutations carry a different cardiovascular risk profile than patients with PKD2 mutations, independently of how their kidneys are doing. That comparison has not been made yet, and it is exactly the kind of question that existing genotyped patient cohorts could answer.
+
+**What this does not mean.** This is entirely animal and cell-culture work. Nothing here changes how cardiovascular risk should be screened for or treated in ADPKD today, and it does not mean PKD1 patients should be managed differently. ADPKD has a long history of promising mouse findings that did not carry over to people. Treat this as a well-posed question, not an answer.
+
+### Iron and Ferritin: A Useful Negative Result (Added August 16, 2026)
+
+Iron handling has become a fashionable suspect across many kidney diseases, so it is worth reporting clearly when a careful test comes back empty. A mouse study (Sommer et al., *American Journal of Physiology — Renal Physiology*, August 9, 2026) confirmed that **ferritin** (the body's iron-storage protein) is genuinely mishandled in polycystic kidneys: it is elevated in the cells lining cysts and in immune cells, in both mouse and human kidney tissue, and infused ferritin piled up abnormally in PKD mouse kidneys but not in healthy ones.
+
+But when the researchers directly tested whether this *causes* cysts to grow — by deleting the ferritin heavy chain gene in two different kidney cell types, and by infusing ferritin — **cyst growth did not change**. That is a negative result, and a useful one: it argues against ferritin itself being a promising drug target for slowing cyst growth, which saves future effort. Two caveats keep this from being the final word: deleting the heavy chain caused the cell to compensate by making more ferritin *light* chain, which could have hidden a real effect, and only two cell types were tested. Broader iron-driven oxidative stress and scarring may still play a secondary role.
+
+*A note on how the paper is worded:* its abstract closes by saying disrupted iron trafficking "contributes to disease progression." That statement goes further than the paper's own experiments support, since every direct test of it was negative. We have logged the finding at low confidence accordingly.
+
+### A New Mouse Model That Is Not PKD1 or PKD2 (Added August 16, 2026)
+
+Deleting a gene called **Bicc1** in the kidneys of mice produces cystic disease that looks like ADPKD and activates the same cAMP and YAP signalling pathways (Gagnieux et al., *iScience*, August 3, 2026). Timing turned out to matter enormously: deleting *Bicc1* throughout the kidney tubules of adult mice produced only a few cysts over six months, whereas deleting it before birth in one specific part of the nephron produced aggressive disease. This gives researchers another model for studying the shared pathways that drive cyst growth, and is a reminder that developmental timing shapes mouse cystic phenotypes in ways that complicate the leap to adult-onset human ADPKD. No treatment implications.
 
 ---
 
@@ -407,4 +427,4 @@ For readers who want to look up specific trials mentioned in this document:
 
 *This is a living document maintained by an automated research intelligence system. It is updated as new studies are published and trials report results. It is intended for informational purposes and does not constitute medical advice. Always discuss your individual situation with your nephrologist or clinical genetics team.*
 
-*Last updated: August 9, 2026*
+*Last updated: August 16, 2026*
