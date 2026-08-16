@@ -1,8 +1,10 @@
 # ADPKD Clinical Trials Pipeline
 
-> **Last updated:** August 9, 2026
+> **Last updated:** August 16, 2026
 >
 > This document tracks the clinical trial landscape for Autosomal Dominant Polycystic Kidney Disease (ADPKD). It is organized by trial phase and type, with context to help readers understand what each trial means and when results might be expected. All NCT identifiers link to [ClinicalTrials.gov](https://clinicaltrials.gov/) where full eligibility criteria and contact information can be found.
+>
+> **Weekly update (W33, August 16, 2026):** **No status, phase, or enrollment changes across any of the 88 monitored trials**, and no results postings. Thirty trials had estimated completion dates drift slightly in the registry (routine housekeeping, no scientific content). The notable development this week came from the literature rather than the registry: a new meta-analysis found that the apparent kidney-function benefit of SGLT2 inhibitors in ADPKD does not survive comparison against a control group (see *Pharmacological Treatments*, §SGLT2 Inhibitors). That raises the stakes for **STOP-PKD** (NCT07280585), which now carries essentially the entire question, and gives new relevance to the overdue **NCT05510115** empagliflozin pilot. Overdue-results watch, re-verified directly against ClinicalTrials.gov this week: **NCT06435858** (empagliflozin/divalent ions) is ~13.5 months past its *actual* primary completion date of 2025-07-01 and its registry record has not been touched since September 2025, while still listed as RECRUITING — internally inconsistent. **NCT06289998** (tamibarotene) is ~8.5 months overdue and has had **no registry update at all since April 2025**, sixteen months of silence, which is worth watching as possible quiet discontinuation rather than delayed reporting. **NCT05510115** (Seliger empagliflozin feasibility) reached actual primary completion 2026-03-18 (~5 months, no results) and its estimated overall completion date of 2026-08-01 has now also passed.
 >
 > **Weekly update (W32, August 9, 2026):** One status change across all 88 monitored trials: **VX-407 AGLOW** (NCT07161037) closed enrollment at 26 participants and moved from RECRUITING to ACTIVE_NOT_RECRUITING (registry update 2026-07-30) — see the AGLOW entry below. No other phase/status/enrollment changes and no new results postings this cycle. The three overdue-results trials flagged at W31 (NCT06435858, NCT06289998, NCT05510115) remain overdue with no results posted.
 >
@@ -343,7 +345,7 @@ The table below lists anticipated timelines for key data readouts. All dates are
 | GSK4771261 (NCT06734234) | 1 | ~2027 | Safety and tolerability of GSK's novel compound |
 | AZD1613 (NCT07228364) | 1 | ~2027 | Safety and tolerability of AstraZeneca's compound |
 | ABBV-CLS-628 (NCT06902558) | 2 | ~2027-2028 | Efficacy signal for AbbVie's novel agent |
-| STOP-PKD (NCT07280585) | 3 | ~2028 | Definitive answer on SGLT2 inhibitors for ADPKD |
+| STOP-PKD (NCT07280585) | 3 | ~2028 | Definitive answer on SGLT2 inhibitors for ADPKD — now the single decisive trial for this drug class, after the August 2026 meta-analysis found no benefit in controlled comparisons |
 
 **Note:** Expected completion dates are estimates and frequently shift. Delays are common due to enrollment challenges, COVID-19 legacy effects on clinical research infrastructure, and regulatory requirements. Check ClinicalTrials.gov for the most current dates.
 
@@ -378,4 +380,4 @@ The ADPKD treatment landscape is more active and more hopeful than at any previo
 
 *This document is part of the ADPKD Research Intelligence System knowledge base. It is updated periodically based on ClinicalTrials.gov data and published literature. It is not medical advice. Always consult your healthcare team before making treatment decisions.*
 
-*Last updated: August 9, 2026*
+*Last updated: August 16, 2026*

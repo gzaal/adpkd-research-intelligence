@@ -668,7 +668,53 @@
         "Semantic Scholar API still returns 403 (key revoked since 2026-07-21) -- skipped, PubMed + ClinicalTrials.gov v2 used exclusively"
       ],
       "notes": "PubMed 7/14-day sweep found 25 unique PMIDs, 7 genuinely new after dedup. Most notable: PMID 42586506 (SGLT2i meta-analysis, 6 studies/451 ADPKD pts) -- eGFR slope improvement significant only vs pre-treatment baseline, NOT vs non-SGLT2i comparator group; TKV difference not significant. Scored importance=7 but evidence_strength=4, so it fell just short of the alert threshold (imp>=7 AND evidence>=5) -- flagged as the highest-decision-value item this cycle regardless. Trial sweep: all 88 tracked NCT IDs verified via batch filter.ids API call; no status or phase changes; 30 trials had estimated completion-date drift corrected (routine registry housekeeping, not alert-worthy). No alert file generated this cycle."
+    },
+    {
+      "run_id": "deep_2026-08-16_001",
+      "type": "deep",
+      "date": "2026-08-16",
+      "window": "2026-08-08 -> 2026-08-15 scan window (scan_2026-08-15_001)",
+      "papers_evaluated": 7,
+      "papers_incorporated": 7,
+      "papers_dropped": 0,
+      "findings_updated": [
+        "finding_005 (confidence moderate -> LOW)",
+        "finding_001 (evolution note only, confidence unchanged)"
+      ],
+      "findings_added": [
+        "finding_031 polycystin-1 vascular endothelium (LOW)",
+        "finding_032 ferritin/iron homeostasis (LOW, negative functional result)"
+      ],
+      "trials_checked": 88,
+      "trial_status_changes": 0,
+      "trial_results_posted": 0,
+      "alerts_issued": 0,
+      "data_corrections": [
+        "pm_42584781 DOI corrected to 10.1007/s11255-026-05340-9",
+        "pm_42597841 DOI corrected to 10.1016/j.isci.2026.117020 and publication_date 2026-08-21 -> 2026-08-03",
+        "pm_42586506 rescored after full-abstract review (headline_vs_evidence overstated -> accurate; cal 6->9, ev 4->5, dec 5->7); COI recorded",
+        "pm_42572368 rescored (headline_vs_evidence accurate -> overstated; cal 8->6)"
+      ],
+      "pipeline_issues": [
+        "scan-20260811 and scan-20260813 scheduled runs received no task prompt (empty scans, up to 6-day alert latency)",
+        "deep-20260816.log is 0 bytes",
+        "scripts/sync.py ADPKD_GDRIVE_PATH unset in launchd plists and shell wrappers -> silent sync failure (exit 0); sync completed manually this cycle",
+        "alert-threshold near-miss: pm_42586506 scored evidence 4 at scan time, 5 after deep review, so no alert fired"
+      ],
+      "digest": "output/digests/2026-W33-digest.md",
+      "knowledge_base_updated": [
+        "01-pharmacological-treatments.md",
+        "03-genetics-biomarkers.md",
+        "04-clinical-trials-pipeline.md"
+      ],
+      "outstanding": [
+        "267 April-2026 baseline papers still status=new (3 cycles overdue for triage)",
+        "TriNetX corrigendum pm_42473614 unresolved (PDF-only, no machine-readable text)"
+      ],
+      "started_at": "2026-08-16T09:00:00Z",
+      "completed_at": "2026-08-16T09:00:00Z",
+      "papers_added": 0
     }
   ],
-  "last_updated": "2026-08-08"
+  "last_updated": "2026-08-16T00:00:00Z"
 }

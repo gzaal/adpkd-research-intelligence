@@ -77,7 +77,8 @@ export function DashboardClient({
             Research Overview
           </h2>
           <div className="flex items-center gap-3">
-            {lastRun && (
+            {lastRun?.completed_at &&
+              !isNaN(new Date(lastRun.completed_at).getTime()) && (
               <span className="px-2 py-0.5 bg-[#c0d9fe] text-[#475f7f] text-[10px] font-bold label-caps rounded">
                 Updated{" "}
                 {formatDistanceToNow(new Date(lastRun.completed_at), {
