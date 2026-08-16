@@ -159,6 +159,14 @@ Perform a SCAN — a lightweight check for new publications and trial updates.
    - Append new papers to papers.json
    - Update trials.json with any changes
    - Log the run in run-log.json
+   - **Run the schema guard** (required — never skip):
+     ```bash
+     python3 scripts/normalize_data.py
+     ```
+     This backfills any missing `dimensions`/`added_date` and folds
+     non-canonical `status` values back to `new`, so the dashboard cannot
+     crash on incomplete records and no unincorporated paper hides from the
+     deep synthesis. It is idempotent and safe to re-run.
 
 7. **Generate alerts**
    Generate an alert if any paper scores importance >= 7 AND evidence_strength >= 5,
@@ -234,9 +242,12 @@ The agent tracks ADPKD research across six dimensions:
 - **Flag stale items.** If the data was presented at a conference 3 months ago and is just now being indexed in PubMed, that is NOT new. Tag `is_new_this_week: false`.
 
 ### Paper JSON schema additions
-When writing papers to papers.json, include these new fields alongside the existing ones:
+When writing papers to papers.json, include these new fields alongside the existing ones. **`dimensions`, `added_date`, and `status` are REQUIRED on every paper** — a paper missing `dimensions`/`added_date` will crash the dashboard, and a non-`new` `status` hides it from the deep synthesis. Newly scanned papers must always use `"status": "new"`:
 ```json
 {
+  "dimensions": ["pharmacological", "genetics"],
+  "added_date": "YYYY-MM-DD",
+  "status": "new",
   "scores": {
     "importance": 7, "evidence_strength": 4, "novelty": 6,
     "decision_usefulness": 3, "claim_calibration": 7
