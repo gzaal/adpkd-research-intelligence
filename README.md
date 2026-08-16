@@ -142,6 +142,21 @@ launchctl load ~/Library/LaunchAgents/com.adpkd.deep.plist
 
 ---
 
+## Customize it for another disease
+
+This repo is one instance of a reusable research-intelligence template — the same system also runs for primary lymphedema at [lymphedema-research-intelligence](https://github.com/gzaal/lymphedema-research-intelligence). To point it at a different disease or research domain:
+
+1. **Scope & disease name** — update the disease name and the in/out-of-scope definition throughout `prompts/scan.md`, `prompts/deep.md`, and `.claude/CLAUDE.md`. The scope gate lives in `scripts/baseline_process.py` (`classify_*` functions) — adjust its keywords.
+2. **Research taxonomy** — redefine the six dimensions and their keyword maps (`DIMENSION_KEYWORDS` / `SUBTOPIC_KEYWORDS` in `scripts/baseline_process.py`) and rename the six documents in `output/knowledge-base/`.
+3. **Search queries** — change the PubMed / Semantic Scholar / ClinicalTrials.gov query terms in `scripts/baseline_fetch.py` and `scripts/pubmed_fetch.py`.
+4. **Evaluation framework** — the evidence-scoring model in `prompts/evaluation-framework.md` is disease-agnostic, but the skepticism flags are domain-specific — edit them to match your field's common biases.
+5. **Paths & schedule** — update absolute paths and the `launchd` plist labels/times (`com.<disease>.scan`, `com.<disease>.deep`) in `scripts/`.
+6. **Dashboard** — change the title, port, and palette in `dashboard/` (this instance uses port 3000 and a blue theme; the lymphedema instance uses 3001 and green).
+
+The pipeline, dashboard, scoring model, and data store are all reusable as-is — only the domain-specific configuration above needs to change.
+
+---
+
 ## License
 
 Personal project shared for reference. No warranty; use at your own risk. Not medical advice.
