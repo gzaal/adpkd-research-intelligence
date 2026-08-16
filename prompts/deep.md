@@ -22,7 +22,11 @@ new data against existing understanding, and produce a weekly digest.
 1. **Load full state**
    - Read ALL files in `data/`
    - Understand the current state of knowledge across all six dimensions
-   - Identify papers with status "new" (not yet incorporated into synthesis)
+   - Identify papers **not yet incorporated into synthesis** — every paper whose
+     `status` is anything other than `incorporated` (i.e. `new`, `reviewed`, or any
+     legacy/unset value). Do **not** filter on `status == "new"` alone: papers with
+     a missing or non-`new` status would otherwise be silently skipped by the deep
+     synthesis.
 
 2. **Critically evaluate new papers**
    For each unincorporated paper, apply the evidence evaluation framework:
